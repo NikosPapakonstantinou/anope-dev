@@ -271,7 +271,7 @@ msgstr "%s είναι ήση μέσα στο δίκτυο."
 #: modules/commands/cs_status.cpp:55
 #, fuzzy, c-format
 msgid "%s has no access on %s."
-msgstr "Ο/η #%s# προσκαλέσθηκε στο κανλάλι #%s#."
+msgstr "Ο χρήστης %s δεν έχει πρόσβαση στο κανάλι %s."
 
 #: modules/commands/cs_set.cpp:304
 #, c-format

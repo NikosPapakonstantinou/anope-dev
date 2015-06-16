@@ -25,7 +25,7 @@ msgstr ""
 #: modules/commands/os_forbid.cpp:253
 #, fuzzy, c-format
 msgid "%d nickname(s) dropped."
-msgstr "Το ψευδώνυμό σου σβήστηκε επιτυχώς από την υπηρεσία."
+msgstr "O χρήστης %d έχει διαγραφεί επιτυχώς."
 
 #: modules/commands/cs_xop.cpp:219
 #, fuzzy, c-format

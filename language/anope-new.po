@@ -2025,12 +2025,12 @@ msgstr ""
 #: modules/commands/cs_seen.cpp:222
 #, fuzzy, c-format
 msgid "%s is on the channel right now!"
-msgstr "Τα #%s# απενεργοποιήθηκαν στο κανάλι %s."
+msgstr "Τα %s απενεργοποιήθηκαν στο κανάλι %s."
 
 #: modules/commands/cs_xop.cpp:438
 #, fuzzy, c-format
 msgid "%s list for %s"
-msgstr "Λίστα πρόσβασης για #%s#:"
+msgstr "Λίστα πρόσβασης για %s:"
 
 #: modules/commands/os_sxline.cpp:69 modules/commands/os_sxline.cpp:113
 #, fuzzy, c-format
@@ -2045,7 +2045,7 @@ msgstr "%c%c%s κλειδώθηκε στο %s"
 #: modules/extra/stats/cs_fantasy_stats.cpp:120
 #, fuzzy, c-format
 msgid "%s not found."
-msgstr "Ο/η #%s# δεν βρέθηκε η θέση στην AOP λίστα του %s."
+msgstr "Ο/η %s δεν βρέθηκε η θέση στην AOP λίστα του %s."
 
 #: modules/commands/os_config.cpp:79
 #, c-format
@@ -2060,12 +2060,12 @@ msgstr ""
 #: modules/commands/ns_ajoin.cpp:213
 #, fuzzy, c-format
 msgid "%s was not found on %s's auto join list."
-msgstr "O #%s# δεν βρέθηκε στην autojoin list"
+msgstr "O %s δεν βρέθηκε στην autojoin list"
 
 #: modules/commands/ns_ajoin.cpp:221
 #, fuzzy, c-format
 msgid "%s was removed from %s's auto join list."
-msgstr "Ο/η #%s# διαγράφτηκε από την autojoin list"
+msgstr "Ο/η %s διαγράφτηκε από την autojoin list"
 
 #: modules/commands/ms_set.cpp:64
 #, c-format
@@ -2122,12 +2122,12 @@ msgstr "Η access λίστα σας είναι άδεια."
 #: modules/commands/ms_info.cpp:99 modules/commands/ms_info.cpp:106
 #, c-format
 msgid "%s's memo limit is %d, and may not be changed."
-msgstr "%s's όριο μηνυμάτων είναι #%d#, και δεν μπορεί να αλλαχτεί."
+msgstr "%s's όριο μηνυμάτων είναι %d, και δεν μπορεί να αλλαχτεί."
 
 #: modules/commands/ms_info.cpp:101 modules/commands/ms_info.cpp:108
 #, c-format
 msgid "%s's memo limit is %d."
-msgstr "Του/της %s's το όριο μηνυμάτων είναι #%d#."
+msgstr "Του/της %s's το όριο μηνυμάτων είναι %d."
 
 #: src/misc.cpp:364
 #, c-format
@@ -2226,7 +2226,7 @@ msgid ""
 "A confirmation e-mail has been sent to %s. Follow the instructions in it to "
 "change your e-mail address."
 msgstr ""
-" Ένα email ενεργοποίησης στάλθηκε στο #%s#. Ακολουθήστε τις οδηγίες του "
+" Ένα email ενεργοποίησης στάλθηκε στο %s. Ακολουθήστε τις οδηγίες του "
 "email για να αλλάξετε την διευθυνση email σας. "
 
 #: modules/commands/ms_sendall.cpp:45
@@ -2263,7 +2263,7 @@ msgstr ""
 #: modules/commands/os_ignore.cpp:342
 #, fuzzy
 msgid "ADD expiry {nick|mask} [reason]"
-msgstr "BAN ##channel# #nick# [#reason#]"
+msgstr "BAN channel nick [#reason#]"
 
 #: modules/commands/os_oper.cpp:70
 msgid "ADD oper type"
@@ -2286,12 +2286,12 @@ msgstr ""
 #: modules/commands/ns_ajoin.cpp:231
 #, fuzzy
 msgid "ADD [nickname] channel [key]"
-msgstr "CHANKILL [+#expiry#] {##channel#} [#reason#]"
+msgstr "CHANKILL [+expiry] {channel} [reason]"
 
 #: modules/commands/ns_access.cpp:102
 #, fuzzy
 msgid "ADD [nickname] mask"
-msgstr "DEL #<nick>#."
+msgstr "DEL <nick>."
 
 #
 #: modules/commands/ns_cert.cpp:258
@@ -2327,7 +2327,7 @@ msgstr ""
 #, c-format
 msgid "AKICK ENFORCE for %s complete; %d users were affected."
 msgstr ""
-"Η AKICK ENFORCE για τον #%s# ολοκληρώθηκε; #%d# χρήστες θα επιρρεαστούν."
+"Η AKICK ENFORCE για τον %s ολοκληρώθηκε; %d χρήστες θα επιρρεαστούν."
 
 #
 #: modules/commands/os_chankill.cpp:21
@@ -2357,7 +2357,7 @@ msgstr "Λίστα πρόσβασης:"
 #: modules/commands/cs_status.cpp:58
 #, fuzzy, c-format
 msgid "Access for %s on %s:"
-msgstr "Η vhost για τον #%s# έγινε #%s#."
+msgstr "Η vhost για τον %s έγινε %s."
 
 #: include/language.h:108
 #, c-format
@@ -2376,12 +2376,12 @@ msgstr "Ο βαθμός access για το κανάλι %s:"
 #: modules/commands/cs_access.cpp:727
 #, c-format
 msgid "Access levels for %s reset to defaults."
-msgstr "Ο βαθμός Access για το #%s# σβήστηκε στο αρχικό."
+msgstr "Ο βαθμός Access για το %s σβήστηκε στο αρχικό."
 
 #: modules/commands/cs_access.cpp:434 modules/commands/ns_access.cpp:87
 #, fuzzy, c-format
 msgid "Access list for %s:"
-msgstr "Λίστα πρόσβασης για #%s#:"
+msgstr "Λίστα πρόσβασης για %s:"
 
 #: modules/commands/help.cpp:166
 #, c-format
@@ -2389,7 +2389,7 @@ msgid ""
 "Access to this command requires the permission %s to be present in your "
 "opertype."
 msgstr ""
-"Η πρόσβαση σε αυτή την εντολή χρειάζεται την άδεια #%s# να υπάρχει στο "
+"Η πρόσβαση σε αυτή την εντολή χρειάζεται την άδεια %s να υπάρχει στο "
 "opertype σας."
 
 #: modules/commands/cs_set.cpp:694
@@ -2407,7 +2407,7 @@ msgid ""
 "When you use this command any user who performs a /whois\n"
 "on you will see the vhost instead of your real host/IP address."
 msgstr ""
-"Syntax: #ON#\n"
+"Syntax: ON\n"
 "Ενεργοποιεί τη vhost ενός nickname.\n"
 "Αν χρησιμοποιήσετε αυτή την εντολή και κάποιος χρήστης σας κάνει /whois\n"
 "θα δεί τη vhost αντί για τη πραγματική IP σας."
@@ -2437,19 +2437,19 @@ msgstr ""
 #: modules/commands/os_info.cpp:164
 #, fuzzy, c-format
 msgid "Added info to %s."
-msgstr "Το μήνυμα στάλθηκε στον #%s#."
+msgstr "Το μήνυμα στάλθηκε στον %s."
 
 #: modules/commands/os_news.cpp:34
 msgid "Added new logon news item."
-msgstr "Προστέθηκε ένας κανονισμός ή πληροφορία στη θέση (#%d)."
+msgstr "Προστέθηκε ένας κανονισμός ή πληροφορία στη θέση (%d)."
 
 #: modules/commands/os_news.cpp:44
 msgid "Added new oper news item."
-msgstr "Προσθέθηκε ένα νέο μήνυμα για τους opers θέση (#%d)."
+msgstr "Προσθέθηκε ένα νέο μήνυμα για τους opers θέση (%d)."
 
 #: modules/commands/os_news.cpp:54
 msgid "Added new random news item."
-msgstr "Προσθέθηκε ένα νέο μήνυμα στην θέση (#%d)."
+msgstr "Προσθέθηκε ένα νέο μήνυμα στην θέση (%d)."
 
 #: modules/commands/os_dns.cpp:394
 #, fuzzy, c-format
@@ -2466,8 +2466,8 @@ msgid ""
 "Additionally, Services Operators with the nickserv/confirm permission can\n"
 "replace passcode with a users nick to force validate them."
 msgstr ""
-"Επιπλέον οι Services Operators με την άδεια #nickserv/confirm# μπορούν\n"
-"αντικαταστήσουν το #passcode# με το όνομα του χρήστη για να γίνει η "
+"Επιπλέον οι Services Operators με την άδεια nickserv/confirm μπορούν\n"
+"αντικαταστήσουν το passcode με το όνομα του χρήστη για να γίνει η "
 "επιβεβαίωση."
 
 #: modules/pseudoclients/botserv.cpp:172
@@ -2478,29 +2478,29 @@ msgid ""
 "one of the following characters: %s"
 msgstr ""
 "To Bot θα μπεί στο κανάλι όταν είναι τουλάχιστον \n"
-"#%d# χρήστες σε αυτό. Επιπλέον όλες οι %s εντολές\n"
+"%d χρήστες σε αυτό. Επιπλέον όλες οι %s εντολές\n"
 "μπορούν να χρησιμοποιηθούν αν το fantasy έχει ενεργοποιηθεί\n"
 "με τη χρήση του ονόματος της εντολής και μπροστά το σύμβολο %c."
 
 #: modules/commands/os_noop.cpp:58
 #, c-format
 msgid "All O:lines of %s have been reset."
-msgstr "Όλες οι O:lines του #%s# έχουν σβηστεί."
+msgstr "Όλες οι O:lines του %s έχουν σβηστεί."
 
 #: modules/commands/cs_clone.cpp:154
 #, fuzzy, c-format
 msgid "All akick entries from %s have been cloned to %s."
-msgstr "Όλες οι καταχωρίσεις akick από το #%s# έχουν μεταφερθεί στο #%s#"
+msgstr "Όλες οι καταχωρίσεις akick από το %s έχουν μεταφερθεί στο %s"
 
 #: modules/commands/help.cpp:57
 #, fuzzy, c-format
 msgid "All available commands for %s:"
-msgstr "Δεν υπάρχει διαθέσιμη βοήθεια για #%s#."
+msgstr "Δεν υπάρχει διαθέσιμη βοήθεια για %s."
 
 #: modules/commands/cs_clone.cpp:178
 #, fuzzy, c-format
 msgid "All badword entries from %s have been cloned to %s."
-msgstr "Όλες οι καταχωρίσεις badword από το #%s# έχουν μεταφερθεί στο #%s#"
+msgstr "Όλες οι καταχωρίσεις badword από το %s έχουν μεταφερθεί στο %s"
 
 #: modules/commands/os_news.cpp:38
 msgid "All logon news items deleted."
@@ -2533,7 +2533,7 @@ msgstr "Όλα τα νέα για τους opers διαγράφηκαν."
 #: modules/commands/os_noop.cpp:41
 #, fuzzy, c-format
 msgid "All operators from %s have been removed."
-msgstr "Όλες οι O:lines του #%s# έχουν απομακρυνθεί."
+msgstr "Όλες οι O:lines του %s έχουν απομακρυνθεί."
 
 #: modules/commands/os_news.cpp:58
 msgid "All random news items deleted."
@@ -2542,7 +2542,7 @@ msgstr "Όλα τα μηνύματα διαγράφηκαν."
 #: modules/commands/cs_clone.cpp:105
 #, fuzzy, c-format
 msgid "All settings from %s have been cloned to %s."
-msgstr "Όλες οι ρυθμίσεις από το #%s# έχουν μεταφερθεί στο #%s#"
+msgstr "Όλες οι ρυθμίσεις από το %s έχουν μεταφερθεί στο %s"
 
 #: modules/commands/cs_sync.cpp:41
 #, c-format
@@ -2552,12 +2552,12 @@ msgstr "Όλα τα memos από το κανάλι %s έχουν διαγραφ�
 #: modules/commands/hs_group.cpp:60
 #, fuzzy, c-format
 msgid "All vhost's in the group %s have been set to %s."
-msgstr "Όλες οι vhosts στο #%s# μεταφέρθηκαν στο #%s#"
+msgstr "Όλες οι vhosts στο %s μεταφέρθηκαν στο %s"
 
 #: modules/commands/hs_group.cpp:58
 #, fuzzy, c-format
 msgid "All vhost's in the group %s have been set to %s@%s."
-msgstr "Όλες οι vhosts στο group #%s# έγιναν #%s#@#%s#"
+msgstr "Όλες οι vhosts στο group %s έγιναν %s@%s"
 
 #: src/access.cpp:41
 msgid "Allowed to (de)halfop him/herself"
@@ -2611,7 +2611,7 @@ msgstr ""
 #: src/access.cpp:57
 #, fuzzy
 msgid "Allowed to change channel topics"
-msgstr "Ο/η #%s# άλλαξε τα usermodes σας."
+msgstr "Ο/η %s άλλαξε τα usermodes σας."
 
 #: src/access.cpp:42
 msgid "Allowed to get full INFO output"
@@ -2628,7 +2628,7 @@ msgstr ""
 #: src/access.cpp:25
 #, fuzzy
 msgid "Allowed to modify the access list"
-msgstr "#%s# διαγράφηκε από το access list του %s."
+msgstr "%s διαγράφηκε από το access list του %s."
 
 #: src/access.cpp:45
 msgid "Allowed to read channel memos"
@@ -2679,7 +2679,7 @@ msgstr "Δεν μπορείτε να χρησιμοποιήσετε αυτή τ�
 #: src/access.cpp:26
 #, fuzzy
 msgid "Allowed to view the access list"
-msgstr "#%s# διαγράφηκε από το access list του %s."
+msgstr "%s διαγράφηκε από το access list του %s."
 
 #: modules/commands/gl_global.cpp:42
 #, fuzzy, c-format
@@ -2690,7 +2690,7 @@ msgstr ""
 "Σύνταξη: #GLOBAL #μήνυμα##\n"
 "\n"
 "Επιτρέπει στους IRCops να στέλνουν μυνήματα σε όλους τους χρήστες του \n"
-"δικτύου.  Το μήνυμα θα στέλνεται από το ψευδώνυμο υπηρεσίας #%s#."
+"δικτύου.  Το μήνυμα θα στέλνεται από το ψευδώνυμο υπηρεσίας %s."
 
 #
 #: modules/commands/os_mode.cpp:127
@@ -2701,12 +2701,12 @@ msgid ""
 "Alternatively, CLEAR may be given to clear all modes on the channel.\n"
 "If CLEAR ALL is given then all modes, including user status, is removed."
 msgstr ""
-"Σύνταξη: #MODE #κανάλι# #modes##\n"
+"Σύνταξη: MODE κανάλι modes\n"
 "\n"
 "Επιτρέπει στους Services operators να αλλάζουν τα modes κάθε καναλιού.\n"
 "Οι παράμετροι είναι ίδιοι σαν της εντολής /MODE.\n"
 "    \n"
-"Μόνο για τους #Services operators#."
+"Μόνο για τους Services operators."
 
 #
 #: modules/commands/os_mode.cpp:167
@@ -2715,12 +2715,12 @@ msgid ""
 "Allows Services Operators to change modes for any user.\n"
 "Parameters are the same as for the standard /MODE command."
 msgstr ""
-"Σύνταξη: #MODE #κανάλι# #modes##\n"
+"Σύνταξη: MODE κανάλι modes\n"
 "\n"
 "Επιτρέπει στους Services operators να αλλάζουν τα modes κάθε καναλιού.\n"
 "Οι παράμετροι είναι ίδιοι σαν της εντολής /MODE.\n"
 "    \n"
-"Μόνο για τους #Services operators#."
+"Μόνο για τους Services operators."
 
 #: modules/commands/bs_bot.cpp:336
 #, fuzzy
@@ -2743,24 +2743,24 @@ msgid ""
 "currently registered. If an unregistered user is currently\n"
 "using the nick, they will be killed."
 msgstr ""
-"Σύνταξη: #BOT ADD #ψευδώνυμο# #ID# #host# #πραγματικό όνομα##\n"
-"        #BOT CHANGE #παλιό-ψευδώνυμοick# #νέο-ψευδώνυμο# [#ID# [#host# "
-"[#πραγματικό όνομα#]]]#\n"
-"    #BOT DEL #ψευδώνυμο##\t        \n"
+"Σύνταξη: BOT ADD ψευδώνυμο ID host πραγματικό όνομα\n"
+"        BOT CHANGE παλιό-ψευδώνυμοick νέο-ψευδώνυμο [ID [host "
+"[πραγματικό όνομα]]]\n"
+"    BOT DEL #ψευδώνυμο\t        \n"
 "\n"
 "Επιτρέπει μόνο στους Services Operators να δημιουργήσουν, αλλάξουν, και \n"
 "να σβήσουν τα bots στα οποία οι χρήστες θα μπορούν να χρησιμοποιήσουν \n"
 "στα δικά τους τα κανάλια.\n"
 "    \n"
-"Η εντολή #BOT ADD# προσθέτει ένα botμε το ψευδώνυμο, ID,\n"
+"Η εντολή BOT ADD προσθέτει ένα botμε το ψευδώνυμο, ID,\n"
 "hostname και πραγματικό όνομα. Αν δεν γίνουν οι κατάλληλοι έλεγχοι \n"
 "με τις επιλογές, να είστε προσεκτικοί.\n"
-"Η εντολή #BOT CHANGE# σας επιτρέπει να αλλάξετε το ψευδώνυμο, ID, hostname\n"
+"Η εντολή BOT CHANGE σας επιτρέπει να αλλάξετε το ψευδώνυμο, ID, hostname\n"
 "ή πραγματικό όνομα του bot χωρίς να χρειάζεται να το σβήσετε (και όλες\n"
 "οι ρυθμίσεις θα μείνουν).\n"
-"Η εντολή #BOT DEL# αφαιρεί το bot από την λίστα bot.  \n"
+"Η εντολή BOT DEL αφαιρεί το bot από την λίστα bot.  \n"
 "\n"
-"#Σημείωση#: αν φτιάξεις ένα bot που έχει ψευδώνυμο κατοχυρωμένο \n"
+"Σημείωση: αν φτιάξεις ένα bot που έχει ψευδώνυμο κατοχυρωμένο \n"
 "θα διαγραφεί. Επίσης, αν ένας χρήστης χρησιμοποιεί ήδη το ψευδώνυμο\n"
 "την ώρα που φτιάχνεις το bot, θα γίνει kill."
 
@@ -2771,9 +2771,9 @@ msgid ""
 "Flags have to be prefixed with a \"+\" or a \"-\". To\n"
 "remove all flags simply type a \"-\" instead of any flags."
 msgstr ""
-"Syntax: #OLINE #user# #flags##\n"
+"Syntax: OLINE user flags\n"
 "\n"
-"Επιτρέπει στους #Services Operators# να δώσουν Operflags σε κάποιο χρήστη.\n"
+"Επιτρέπει στους Services Operators να δώσουν Operflags σε κάποιο χρήστη.\n"
 "Τα flags πρέπει να αρχίζουν με \"+\" ή \"-\". Για να\n"
 "αφαιρέσετε όλα τα flags πληκτρολογήστε \"-\" αντί για κάποιο flag."
 
@@ -2793,16 +2793,16 @@ msgid ""
 " \n"
 "Ignores will not be enforced on IRC Operators."
 msgstr ""
-"Syntax: #IGNORE {ADD|DEL|LIST|CLEAR} [#time#] [#nick#] [#reason#]#\n"
+"Syntax: IGNORE {ADD|DEL|LIST|CLEAR} [time] [nick] [reason]\n"
 " \n"
 "Επιτρέπει στους IRC Opers να κάνουν τα services να αγνοούν ένα nick/host\n"
 "για κάποιο χρόνο, μέχρι το επόμενο restart. Η προεπιλογή είναι\n"
 "δευτερόλεπτα. Μπορείτε να το ορίσετε με Units.\n"
-"Τα units που ισχύουν είναι: #s# για δευτερόλεπτα, #m# για λεπτά \n"
-"#h# για ώρες #d# για μέρες. \n"
+"Τα units που ισχύουν είναι: s για δευτερόλεπτα, m για λεπτά \n"
+"h για ώρες d για μέρες. \n"
 "Οι συνδιασμοί αυτών των units δεν επιτρέπονται.\n"
 "Για μόνιμο ignore πατήστε 0 στο χρόνο.\n"
-"Τα #mask# πρέπει να είναι της μορφής user@host\n"
+"Τα mask πρέπει να είναι της μορφής user@host\n"
 "ή nick!user@host, όλα τα άλλα θεωρούνται ψευδόνυμα.\n"
 "Επιτρέπονται τα wildcards.\n"
 " \n"
@@ -2833,11 +2833,11 @@ msgid ""
 "current AKILL default expiry time can be found with the\n"
 "STATS AKILL command."
 msgstr ""
-"Σύνταξη: #AKILL ADD [+#expiry#] #μάσκα# #λόγος##\n"
-"        #AKILL DEL {#μάσκα# | #θέσεις-νούμερα# | #λίστα#}#\n"
-"        #AKILL LIST [#μάσκα# | #λίστα#]#\n"
-"        #AKILL VIEW [#μάσκα# | #λίστα#]#\n"
-"        #AKILL CLEAR#\n"
+"Σύνταξη: AKILL ADD [+expiry] μάσκα λόγος\n"
+"        AKILL DEL {μάσκα | θέσεις-νούμερα | λίστα}\n"
+"        AKILL LIST [μάσκα | λίστα]\n"
+"        AKILL VIEW [μάσκα | λίστα]\n"
+"        AKILL CLEAR\n"
 "\n"
 "Μπορούν οι Services operators να αλλάξουν την λίστα AKILL.  Αν\n"
 "η μάσκα του χρήστη ταιριάξει με μια από αυτές που περιέχονται στην λίστα "
@@ -2847,41 +2847,41 @@ msgstr ""
 "θα έχει KILL, σε όλους τους servers που είναι μαζί.Δηλ γίνεται προσθήκη\n"
 "ban (K-line) για την μάσκα που ταιριάζει στο χρήστη.\n"
 "    \n"
-"Η εντολή #AKILL ADD# προσθέτει το ανάλογο user@host μάσκα στην λίστα AKILL\n"
+"Η εντολή AKILL ADD προσθέτει το ανάλογο user@host μάσκα στην λίστα AKILL\n"
 "με έναν λόγο που πρέπει να δώσετε ωστε ο χρήστης να καταλάβει γιατί είναι "
 "AKILL.\n"
-"Το #expiry# είναι συγκεκριμένο και επιλέγεται από τα επόμενα, #d# \n"
-"(μέρες), #h# (ώρες), ή #m# (λεπτά).  Συνδιασμοί (όπως \n"
-"#1h30m#) δεν επιτρέπονται .  Αν δεν δώσετε το χρόνο \n"
+"Το expiry είναι συγκεκριμένο και επιλέγεται από τα επόμενα, d \n"
+"(μέρες), h (ώρες), ή m (λεπτά).  Συνδιασμοί (όπως \n"
+"1h30m) δεν επιτρέπονται .  Αν δεν δώσετε το χρόνο \n"
 "από default θα είναι σε μέρες (θα είναι #+30# που σημαίνει 30 \n"
 "μέρες).  Για να προσθέσετε ένα AKILL που να μην λήγει, χρησιμοποιείστε #"
-"+0#.\n"
-"Αν η usermask ξεκινάει με #+#, ο χρόνος λήξης θα πρέπει να δίνετε\n"
+"+0.\n"
+"Αν η usermask ξεκινάει με +, ο χρόνος λήξης θα πρέπει να δίνετε\n"
 "ακόμα και αν είναι ίδιος με τον default.  Ο\n"
 "συγκεκριμένος χρόνος λήξης της εντολής AKILL μπορεί να βρεθεί με την εντολή\n"
-"#STATS AKILL#.\n"
+"STATS AKILL.\n"
 "\n"
-"Η εντολή #AKILL DEL# διαγράφει τη συγκεκριμένη μάσκα από την λίστα.  \n"
+"Η εντολή AKILL DEL διαγράφει τη συγκεκριμένη μάσκα από την λίστα.  \n"
 "AKILL αν υπάρχει.  Αν σας δωθεί λίστα με τις θέσεις-νούμερα\n"
 "αυτές οι θέσεις θα διαγραφούν.  (Κοίτα το παράδειγμα με την εντολή LIST.)\n"
 "\n"
-"Η εντολή #AKILL LIST# εμφανίζει την λίστα με τα AKILL.\n"
+"Η εντολή AKILL LIST εμφανίζει την λίστα με τα AKILL.\n"
 "Αν δίνεται μια συγκεκριμένη μάσκα, θα εμφανιστούν οι θέσεις που αντιστοιχούν "
 "σε\n"
 "αυτή τη μάσκα.  Αν δίνετε η λίστα με τις θέσεις-νούμερα μπορείτε να τις "
 "δείτε και \n"
 "αλλιώς,\n"
 "παράδειγμα:\n"
-"   #AKILL LIST 2-5,7-9#\n"
+"   AKILL LIST 2-5,7-9#\n"
 "      Εμφανίζει τις θέσεις με τα νούμερα 2 εως 5 και 7 \n"
 "      εως 9 της λίστας AKILL.\n"
 "      \n"
-"Η εντολή #AKILL VIEW# είναι πιο καλύτερη από την #AKILL LIST#, και\n"
+"Η εντολή AKILL VIEW είναι πιο καλύτερη από την AKILL LIST, και\n"
 "εμφανίζει ποιος συγκεκριμένα έβαλε κάποιον AKILL, την ημερομηνία που έγινε, "
 "και\n"
 "πότε θα λήξει, όπως και το user@host και τον λόγο.\n"
 "Η εντολή _AKILL CLEAR_ καθαρίζει όλες τις θέσεις της λίστας AKILL.\n"
-"Μόνο για τους #Services operators#.\t\n"
+"Μόνο για τους Services operators.\t\n"
 "    "
 
 #: modules/commands/os_sxline.cpp:429
@@ -2937,20 +2937,20 @@ msgstr ""
 "\n"
 "Αφήνει τους επικεφαλείς υπηρεσιών να δουν την λίστα session.\n"
 "\n"
-"#SESSION LIST# Λίστα με hosts με τουλάχιστον #threshold# sessions.\n"
+"SESSION LIST Λίστα με hosts με τουλάχιστον threshold sessions.\n"
 "Το threshold πρέπει να είναι ένα νούμερο μεγαλύτερο από 1. Αυτό γίνεται \n"
 "για να αποφευχθούν ατυχήματα στη λίστα μεγάλων νούμερων μονών session "
 "hosts. \n"
-"#SESSION VIEW# εμφανίζει αναλυτικές πληροφορίες σχετικά με τα specific\n"
+"SESSION VIEW εμφανίζει αναλυτικές πληροφορίες σχετικά με τα specific\n"
 "host - συμεριλαμβανομένου πρόσφατου session μετρητή και session limit.\n"
-"Η #μάσκα# πρέπει να μην περιλαμβάνεται σε wildcards.\n"
+"Η μάσκα πρέπει να μην περιλαμβάνεται σε wildcards.\n"
 "    \n"
-"Κοίτα στο #EXCEPTION# help για περισσότερες πληροφορίες σχετικά με το "
+"Κοίτα στο EXCEPTION help για περισσότερες πληροφορίες σχετικά με το "
 "session\n"
 "limiting και για το πως θα κάνεις session limits σε specific hosts και "
 "groups.\n"
 "    \n"
-"Μόνο για τους #Επικεφαλείς Υπηρεσιών#."
+"Μόνο για τους Επικεφαλείς Υπηρεσιών."
 
 #: modules/commands/cs_topic.cpp:189
 msgid ""
@@ -2974,16 +2974,16 @@ msgid ""
 " \n"
 "*** SpamMan has been kicked off channel #my_channel by %s (Alcan (Flood))"
 msgstr ""
-"Σύνταξη: #KICK #κανάλι# #χρήστη# #λόγο##\n"
+"Σύνταξη: KICK κανάλι χρήστη λόγο\n"
 "\n"
 "Επιτρέπει στους IRCops να κάνουν kick ε΄να χρήστη από το κανάλι.\n"
 "Οι παράμετροι είναι ίδιοι με την εντολή /KICK.\n"
 "Το μήνυμα του kick θα έχει το ψευδώνυμο του\n"
 "IRCop σαν μια προειδοποίηση; Για παράδειγμα:\n"
 "\n"
-"*** SpamMan has been kicked off channel #my_channel by %s (Alcan (Flood))\n"
+"*** SpamMan has been kicked off channel my_channel by %s (Alcan (Flood))\n"
 "\n"
-"Μόνο για τους #Services operators#."
+"Μόνο για τους Services operators."
 
 #: modules/commands/cs_set.cpp:33
 msgid ""
@@ -2992,7 +2992,7 @@ msgid ""
 " \n"
 "Available options:"
 msgstr ""
-"Σύνταξη: #SET #κανάλι# #επιλογή# #παράμετροι##\n"
+"Σύνταξη: SET κανάλι επιλογή παράμετροι\n"
 "\n"
 "Επιτρέπουν στον founder του καναλιού να επιλέξει και να ρυθμίσει το κανάλι\n"
 "του και άλλες πληροφορίες.\n"
@@ -3017,13 +3017,13 @@ msgid ""
 "Example:\n"
 "     MODIFY nickserv forcemail no"
 msgstr ""
-"Syntax: #CONFIG {#MODIFY#|#VIEW#} [#block name# #item name# #item value#]#\n"
+"Syntax: CONFIG {MODIFY|VIEW} [block name item name item value]\n"
 "\n"
-"To #CONFIG# επιτρέπει να δείτε και να αλλάξετε τις ρυθμίσεις "
+"To CONFIG επιτρέπει να δείτε και να αλλάξετε τις ρυθμίσεις "
 "configuration. \n"
 "Οι αλλαγές αυτές δεν αποθηκεύονται μέσα στο configuration αρχείο, και "
 "χάνονται αν η Anope γίνει RESTART/SHUT DOWN/RELOADExample:\n"
-"     #CONFIG MODIFY nickserv forcemail no# \n"
+"     CONFIG MODIFY nickserv forcemail no \n"
 
 #: modules/commands/ns_set.cpp:968
 #, fuzzy
@@ -3032,10 +3032,10 @@ msgid ""
 "the given user. With MSG set, Services will use messages,\n"
 "else they'll use notices."
 msgstr ""
-"Syntax: #SASET #nickname# MSG {ON | OFF}#\n"
+"Syntax: SASET nickname MSG {ON | OFF}\n"
 "\n"
 "Επιτρέπει να διαλέξετε ένα τρόπο με τον οποίο τα services θα επικοινωνούν \n"
-"με το χρήστη. Με τη παράμετρο #MSG#, τα Services θα χρησιμοποιούν μηνύματα,\n"
+"με το χρήστη. Με τη παράμετρο MSG, τα Services θα χρησιμοποιούν μηνύματα,\n"
 "αλλιώς θα χρησιμοποιούν notices."
 
 #: modules/commands/ns_set.cpp:942
@@ -3045,10 +3045,10 @@ msgid ""
 "you. With %s set, Services will use messages, else they'll\n"
 "use notices."
 msgstr ""
-"Σύνταξη: #SET MSG {ON | OFF}#\n"
+"Σύνταξη: SET MSG {ON | OFF}\n"
 "\n"
 "Σας επιτρέπει να διαλέξετε το τρόπο με τον οποίο τα Services θα \n"
-"επικοινωνούν μαζί σου.  Με την εντολή #MSG#, τα Services θα \n"
+"επικοινωνούν μαζί σου.  Με την εντολή MSG, τα Services θα \n"
 "χρησιμοποιούν μηνύματα, διαφορετικά θα χρησιμοποιούν παρατηρήσεις \n"
 "(notices). "
 
@@ -3060,7 +3060,7 @@ msgid ""
 "to memo you or a channel, they will not be told that you have\n"
 "them ignored."
 msgstr ""
-"Syntax: #IGNORE [#channel#] {#ADD|DEL|LIST#} [#entry#]\n"
+"Syntax: IGNORE [channel] {ADD|DEL|LIST} [entry]\n"
 " \n"
 "Επιτρέπει να αγνοείτε χρήστες με βάση το nick ή τη host τους και δεν θα "
 "μπορούν να σας στέλνουν memo.\n"
@@ -3085,16 +3085,16 @@ msgid ""
 "The second parameter specifies whether the information should\n"
 "be displayed (OFF) or hidden (ON)."
 msgstr ""
-"Syntax: #SASET #nickname# HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}"
-"#\n"
+"Syntax: SASET nickname HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}"
+"\n"
 "\n"
 "Επιτρέπει να κάνετε κάποιες πληροφορίες να μη φαίνονται\n"
-"όταν κάποιος κάνει ένα  %s #INFO# \n"
-"σε ένα nick. Μπορείτε να κρύψετε το email (#EMAIL#), τελευταίο\n"
-"user@host mask (#USERMASK#), τη πρόσβαση στα services\n"
-"(#STATUS#) και το quit message (#QUIT#).\n"
+"όταν κάποιος κάνει ένα  %s INFO \n"
+"σε ένα nick. Μπορείτε να κρύψετε το email (EMAIL), τελευταίο\n"
+"user@host mask (USERMASK), τη πρόσβαση στα services\n"
+"(STATUS) και το quit message (QUIT).\n"
 "Η δεύτερη παράμετρος ορίζει αν οι πληροφορίες πρέπει να\n"
-"φαίνονται (#OFF#) ή να κρύβονται (#ON#)."
+"φαίνονται (OFF) ή να κρύβονται (ON)."
 
 #: modules/commands/ns_info.cpp:223
 #, fuzzy, c-format
@@ -3107,16 +3107,16 @@ msgid ""
 "The second parameter specifies whether the information should\n"
 "be displayed (OFF) or hidden (ON)."
 msgstr ""
-"Σύνταξη: #SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}#\n"
+"Σύνταξη: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}\n"
 "\n"
 "Σας επιτρέπει να εμποδίσετε την εμφάνιση συγκεκριμένων\n"
-"πληροφοριών όταν κάποιος εκτελεί την εντολή του %s #INFO#, στο\n"
+"πληροφοριών όταν κάποιος εκτελεί την εντολή του %s INFO, στο\n"
 "ψευδώνυμό σας.  Μπορείτε να αποκρύψετε τη διεύθυνση e-mail\n"
-"user@host mask (#USERMASK#), and last quit message (#QUIT#).\n"
-"σας (#EMAIL#), την τελευταία διεύθυνση με την οποία συνδεθήκατε\n"
-"(#USERMASK#), και το τελευταίο μήνυμα (#QUIT#).\n"
+"user@host mask (USERMASK), and last quit message (QUIT).\n"
+"σας (EMAIL), την τελευταία διεύθυνση με την οποία συνδεθήκατε\n"
+"(USERMASK), και το τελευταίο μήνυμα (QUIT).\n"
 "Η δεύτερη παράμετρος καθορίζει το αν η πληροφορία θα πρέπει\n"
-"να εμφανίζεται (#OFF#) ή να αποκρύπτεται (#ON#)."
+"να εμφανίζεται (OFF) ή να αποκρύπτεται (ON)."
 
 #
 #: modules/commands/bs_info.cpp:119
@@ -3133,7 +3133,7 @@ msgid ""
 "you'll get information about a bot, such as creation\n"
 "time or number of channels it is on."
 msgstr ""
-"Σύνταξη: #INFO {#κανάλι# | #ψευδώνυμο#}#\n"
+"Σύνταξη: INFO {κανάλι | ψευδώνυμο}\n"
 "\n"
 "Σου επιτρέπει να δεις από το %s πληροφορίες σχετικά με το κανάλι ή το bot.\n"
 "Αν η παράμετρος είναι το κανάλι, θα δείς πληροφορίες μόνο αν έχεις\n"
@@ -3164,7 +3164,7 @@ msgid ""
 "can then configure the bot for the channel so it fits\n"
 "your needs."
 msgstr ""
-"Σύνταξη: #ASSIGN #κανάλι# #ψευδώνυμο##\n"
+"Σύνταξη: ASSIGN κανάλι ψευδώνυμο\n"
 "\n"
 "Με την εντολή αυτή ζητάς από το bot να μπεί στο κανάλι σου. Μπορείς\n"
 "μετά να το ρυθμίσεις για τις ανάγκες του καναλιού σου.\n"
@@ -3224,12 +3224,12 @@ msgid ""
 "This address will be displayed whenever someone requests\n"
 "information on the nickname with the INFO command."
 msgstr ""
-"Σύνταξη: #SET EMAIL #διεύθυνση##\n"
+"Σύνταξη: SET EMAIL διεύθυνση\n"
 "\n"
 "Δείχνει την δεύθυνση E-mail που του έχεις δώσει για το ψευδώνυμο σου.\n"
 "Αυτή η διεύθυνση θα εμφανίζεται κάθε φορά που κάποιος θα κοιτάζει "
 "πληροφορίες\n"
-"στο κανάλι με την εντολή #INFO#."
+"στο κανάλι με την εντολή INFO."
 
 #: modules/commands/ns_set.cpp:1290
 msgid "Auto-op"
@@ -3283,7 +3283,7 @@ msgstr "   Κακές λέξεις ώστε να κάνει kick : %s"
 #: modules/commands/bs_badwords.cpp:251
 #, fuzzy, c-format
 msgid "Bad words list for %s:"
-msgstr "Λίστα πρόσβασης για #%s#:"
+msgstr "Λίστα πρόσβασης για %s:"
 
 #: modules/commands/bs_badwords.cpp:363
 msgid "Bad words list is now empty."
@@ -3305,7 +3305,7 @@ msgstr ""
 #: modules/commands/cs_set.cpp:171
 #, c-format
 msgid "Ban type for channel %s is now #%d."
-msgstr "Ban τύπος του καναλιού %s είναι τώρα #%d."
+msgstr "Ban τύπος του καναλιού %s είναι τώρα %d."
 
 #
 #: modules/commands/cs_ban.cpp:40
@@ -3323,7 +3323,7 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access\n"
 "and above on the channel. Channel founders may ban masks."
 msgstr ""
-"Σύνταξη: #BAN ##κανάλι# #ψευδώνυμο# [#λόγος#]#\n"
+"Σύνταξη: BAN κανάλι ψευδώνυμο [λόγος]\n"
 "\n"
 "Κάνει ban το ψευδώνυμο που του δίνεις στο κανάλι.\n"
 "    \n"
@@ -3345,7 +3345,7 @@ msgstr "       Έντονη χαρακτήρες με kick : %s"
 #: modules/commands/bs_bot.cpp:26 modules/commands/bs_bot.cpp:166
 #, c-format
 msgid "Bot %s already exists."
-msgstr "Το Bot #%s# υπάρχει ήδη."
+msgstr "Το Bot %s υπάρχει ήδη."
 
 #: include/language.h:120
 #, fuzzy, c-format
@@ -3355,52 +3355,52 @@ msgstr "   %s (δεν λήγει ποτέ)"
 #: modules/commands/bs_assign.cpp:71 modules/commands/bs_assign.cpp:246
 #, c-format
 msgid "Bot %s has been assigned to %s."
-msgstr "Το Bot #%s# θα μπει στο %s."
+msgstr "Το Bot %s θα μπει στο %s."
 
 #: modules/commands/bs_bot.cpp:212
 #, fuzzy, c-format
 msgid "Bot %s has been changed to %s!%s@%s (%s)."
-msgstr "Bot #%s# άλλαξε σε %s!%s@%s (%s)"
+msgstr "Bot %s άλλαξε σε %s!%s@%s (%s)"
 
 #: modules/commands/bs_bot.cpp:246
 #, c-format
 msgid "Bot %s has been deleted."
-msgstr "Bot #%s# διαγράφηκε."
+msgstr "Bot %s διαγράφηκε."
 
 #: modules/commands/bs_assign.cpp:63 modules/commands/bs_assign.cpp:241
 #, c-format
 msgid "Bot %s is already assigned to channel %s."
-msgstr "Το Bot #%s# υπάρχει ήδη στο κανάλι #%s#."
+msgstr "Το Bot %s υπάρχει ήδη στο κανάλι %s#."
 
 #: modules/commands/bs_kick.cpp:821
 #, c-format
 msgid "Bot will kick ops on channel %s."
-msgstr "Το Bot #θα κάνει kick τους ops# του καναλιού %s."
+msgstr "Το Bot θα κάνει kick τους ops του καναλιού %s."
 
 #: modules/commands/bs_kick.cpp:886
 #, c-format
 msgid "Bot will kick voices on channel %s."
-msgstr "Το Bot #θα κάνει kick τους voices# του καναλιού %s."
+msgstr "Το Bot θα κάνει kick τους voices του καναλιού %s."
 
 #: modules/commands/bs_kick.cpp:813
 #, c-format
 msgid "Bot won't kick ops on channel %s."
-msgstr "Το Bot #δεν θα κάνει kick τουε ops# του καναλιού %s."
+msgstr "Το Bot δεν θα κάνει kick τουε ops του καναλιού %s."
 
 #: modules/commands/bs_kick.cpp:878
 #, c-format
 msgid "Bot won't kick voices on channel %s."
-msgstr "Το Bot #δεν θα κάνει kick τους voices# του καναλιού %s."
+msgstr "Το Bot δεν θα κάνει kick τους voices του καναλιού %s."
 
 #: modules/commands/bs_bot.cpp:111
 #, fuzzy, c-format
 msgid "Bot %s is not changeable."
-msgstr "Κανένα Bot έχει επιλογή #ON# στο κανάλι %s."
+msgstr "Κανένα Bot έχει επιλογή ON στο κανάλι %s."
 
 #: modules/commands/bs_bot.cpp:238
 #, fuzzy, c-format
 msgid "Bot %s is not deletable."
-msgstr "Bot #%s# διαγράφηκε."
+msgstr "Bot %s διαγράφηκε."
 
 #: modules/commands/bs_set.cpp:129
 #, c-format
@@ -3435,7 +3435,7 @@ msgstr "Οι Idents των bots μπορούν να περιέχουν μόνο 
 #: include/language.h:122
 #, fuzzy, c-format
 msgid "Bot is not on channel %s."
-msgstr "Το Bot #θα κάνει kick τους ops# του καναλιού %s."
+msgstr "Το Bot θα κάνει kick τους ops του καναλιού %s."
 
 #: modules/commands/bs_botlist.cpp:51
 msgid "Bot list:"
@@ -3461,13 +3461,13 @@ msgid ""
 "Bot will now kick for %s, and will place a ban\n"
 "after %d kicks for the same user."
 msgstr ""
-"Bot will now kick #italics#, and will place a ban after %d\n"
+"Bot will now kick italics, and will place a ban after %d\n"
 "kicks for the same user."
 
 #: modules/commands/bs_kick.cpp:230
 #, fuzzy, c-format
 msgid "Bot will now kick for %s."
-msgstr "Το Bot θα κάνει τώρα kick #έντονους χαρακτήρες#."
+msgstr "Το Bot θα κάνει τώρα kick έντονους χαρακτήρες#."
 
 #: modules/commands/bs_kick.cpp:418
 #, fuzzy, c-format
@@ -3476,7 +3476,7 @@ msgid ""
 "%d characters and %d%% of the entire message), and will\n"
 "place a ban after %d kicks for the same user."
 msgstr ""
-"Το Bot θα κάνει kick #κεφαλαία# (πρέπει να είναι τουλάχιστον\n"
+"Το Bot θα κάνει kick κεφαλαία (πρέπει να είναι τουλάχιστον\n"
 "%d χαρακτήρες και %d%% από το μήνυμα), και θα \n"
 "γίνει ban μετά από %d kicks για τον ίδιο χρήστη."
 
@@ -3486,7 +3486,7 @@ msgid ""
 "Bot will now kick for caps (they must constitute at least\n"
 "%d characters and %d%% of the entire message)."
 msgstr ""
-"Το Bot θα κάνει kick #κεφαλαία# (πρέπει να είναι τουλάχιστον\n"
+"Το Bot θα κάνει kick κεφαλαία (πρέπει να είναι τουλάχιστον\n"
 "%d χαρακτήρες και %d%% από το μήνυμα)."
 
 #: modules/commands/bs_kick.cpp:553
@@ -3495,7 +3495,7 @@ msgid ""
 "Bot will now kick for flood (%d lines in %d seconds\n"
 "and will place a ban after %d kicks for the same user."
 msgstr ""
-"Το Bot θα κάνει kick #για επαναλήψεις# (%d γραμμές σε %d δευτερόλεπτα), "
+"Το Bot θα κάνει kick #για επαναλήψεις (%d γραμμές σε %d δευτερόλεπτα), "
 "και \n"
 "θα κάνει ban μετά από %d kicks για τον ίδιο χρήστη."
 
@@ -3503,7 +3503,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Bot will now kick for flood (%d lines in %d seconds)."
 msgstr ""
-"Το Bot θα κάνει kick #για επαναλήψεις# (%d γραμμές σε %d δευτερόλεπτα)."
+"Το Bot θα κάνει kick για επαναλήψεις (%d γραμμές σε %d δευτερόλεπτα)."
 
 #: modules/commands/bs_kick.cpp:673
 #, fuzzy, c-format
@@ -3512,7 +3512,7 @@ msgid ""
 "same thing %d times), and will place a ban after %d\n"
 "kicks for the same user."
 msgstr ""
-"Το Bot θα κάνει kick #για επαναλήψεις# (χρήστες που λένε %d φορές\n"
+"Το Bot θα κάνει kick για επαναλήψεις (χρήστες που λένε %d φορές\n"
 "το ίδιο πράγμα), και θα γίνεται ban μετά από %d \n"
 "kicks για τον ίδιο χρήστη."
 
@@ -3522,28 +3522,28 @@ msgid ""
 "Bot will now kick for repeats (users that say the\n"
 "same thing %d times)."
 msgstr ""
-"Το Bot θα κάνει kick #για επαναλήψεις# (χρήστες που λένε %d φορές\n"
+"Το Bot θα κάνει kick για επαναλήψεις (χρήστες που λένε %d φορές\n"
 "το ίδιο πράγμα)."
 
 #: modules/commands/bs_kick.cpp:241
 #, fuzzy, c-format
 msgid "Bot won't kick for %s anymore."
-msgstr "Το Bot δεν θα κάνει kick #κεφαλαία# πλέον."
+msgstr "Το Bot δεν θα κάνει kick κεφαλαία πλέον."
 
 #: modules/commands/bs_kick.cpp:428
 #, fuzzy
 msgid "Bot won't kick for caps anymore."
-msgstr "Το Bot δεν θα κάνει kick #κεφαλαία# πλέον."
+msgstr "Το Bot δεν θα κάνει kick κεφαλαία πλέον."
 
 #: modules/commands/bs_kick.cpp:561
 #, fuzzy
 msgid "Bot won't kick for flood anymore."
-msgstr "Το Bot δεν θα κάνει kick #για επαναλήψεις# πλέον."
+msgstr "Το Bot δεν θα κάνει kick για επαναλήψεις πλέον."
 
 #: modules/commands/bs_kick.cpp:683
 #, fuzzy
 msgid "Bot won't kick for repeats anymore."
-msgstr "Το Bot δεν θα κάνει kick #για επαναλήψεις# πλέον."
+msgstr "Το Bot δεν θα κάνει kick για επαναλήψεις πλέον."
 
 #: modules/commands/cs_access.cpp:467 modules/commands/os_session.cpp:552
 #: modules/commands/os_sxline.cpp:199
@@ -3578,7 +3578,7 @@ msgid ""
 "Cancels the last memo you sent to the given nick or channel,\n"
 "provided it has not been read at the time you use the command."
 msgstr ""
-"Σύνταξη: #CANCEL {#ψευδώνυμο# | #κανάλι#}#\n"
+"Σύνταξη: CANCEL {ψευδώνυμο | κανάλι}\n"
 "\n"
 "Ακυρώνει το τελευταίο μήνυμα που στείλατε στον παραλείπτη ή το κανάλι,\n"
 "με την προυπόθεση οτι δεν έχει διαβαστεί,γιατί η εντολή τότε θα είναι σαν "
@@ -3588,7 +3588,7 @@ msgstr ""
 #: modules/commands/cs_clone.cpp:55
 #, fuzzy, c-format
 msgid "Cannot clone channel %s to itself!"
-msgstr "Το Bot #θα κάνει kick τους ops# του καναλιού %s."
+msgstr "Το Bot θα κάνει kick τους ops του καναλιού %s."
 
 #: modules/commands/ns_register.cpp:301
 msgid "Cannot send mail now; please retry a little later."
@@ -3609,16 +3609,16 @@ msgid ""
 "damage to the in-memory copies of the databases is feared\n"
 "and they should not be saved."
 msgstr ""
-"Σύνταξη: #QUIT#\n"
+"Σύνταξη: QUIT\n"
 "\n"
 "Έχει ως αποτέλεσμα τα Services να κλείσουν αμέσως(να τερματιστούν); οι "
 "βάσεις\n"
-"δεδομένων #δεν# γράφονται(δεν σώζονται).  Αυτή η εντολή δεν πρέπει να\n"
+"δεδομένων δεν γράφονται(δεν σώζονται).  Αυτή η εντολή δεν πρέπει να\n"
 "χρησιμοποιείται εκτός και αν υπάρχει βλάβη στην μνήμη των databases\n"
 "και δεν γίνεται να γραφτούν(δεν γίνεται να γίνουν save).\n"
-"Για κανονικό τερματισμό, κάντε την εντολή #SHUTDOWN#.\n"
+"Για κανονικό τερματισμό, κάντε την εντολή SHUTDOWN.\n"
 "    \n"
-"Μόνο για τους #Services Operators#."
+"Μόνο για τους Services Operators."
 
 #: modules/commands/os_reload.cpp:47
 #, fuzzy
@@ -3628,7 +3628,7 @@ msgid ""
 "take effect (such as Services' nicknames, activation of the\n"
 "session limitation, etc.)."
 msgstr ""
-"Σύνταξη: #RELOAD#\n"
+"Σύνταξη: RELOAD\n"
 "\n"
 "Έχει ως αποτέλεσμα τα Services να επαναφορτώνουν το configuration αρχείο.\n"
 "Σημείωση οτι μερικές επιλογές για να έχουν αποτέλεσμα χρειάζονται "
@@ -3636,48 +3636,48 @@ msgstr ""
 "των Services (όπως Services' ψευδώνυμα, ενεργοποίηση της session \n"
 "limitation, κλπ.)\n"
 "    \n"
-"Μόνο για τους #Services Operators#."
+"Μόνο για τους Services Operators."
 
 #: modules/commands/os_shutdown.cpp:62
 msgid ""
 "Causes Services to save all databases and then restart\n"
 "(i.e. exit and immediately re-run the executable)."
 msgstr ""
-"Σύνταξη: #RESTART#\n"
+"Σύνταξη: RESTART\n"
 "\n"
 "Έχει ως αποτέλεσμα τα Services να γράψουν όλη την βάση δεδομένων και να\n"
 "επανεκκινηθούν (δηλ να κλείσουν και αμέσως να \n"
 "ξανατρεχτεί το εκτελέσιμο αρχείο).\n"
 "\n"
-"Μόνο για τους #Services Operators#.\t"
+"Μόνο για τους Services Operators.\t"
 
 #: modules/commands/os_shutdown.cpp:89
 msgid "Causes Services to save all databases and then shut down."
 msgstr ""
-"Σύνταξη: #SHUTDOWN#\n"
+"Σύνταξη: SHUTDOWN\n"
 "\n"
 "Έχει ως αποτέλεσμα τα Services να γράψουν όλη την βάση δεδομένων και να \n"
 "τερματιστούν.\n"
 "\n"
-"Μόνο για τους #Services Operators#."
+"Μόνο για τους Services Operators."
 
 #: modules/commands/os_update.cpp:34
 msgid ""
 "Causes Services to update all database files as soon as you\n"
 "send the command."
 msgstr ""
-"Σύνταξη: #UPDATE#\n"
+"Σύνταξη: UPDATE\n"
 "\n"
 "Έxei ως αποτέλεσμα τα Services να κάνουν update σε όλες τις βάσεις "
 "δεδομένων\n"
 "το συντομότερο που κάνετε αυτή την εντολή.\n"
 "    \n"
-"Μόνο για τους #Services Operators#."
+"Μόνο για τους Services Operators."
 
 #: modules/commands/ns_cert.cpp:246
 #, fuzzy, c-format
 msgid "Certificate list for %s:"
-msgstr "Λίστα πρόσβασης για #%s#:"
+msgstr "Λίστα πρόσβασης για %s:"
 
 #: modules/commands/cs_set.cpp:539 modules/commands/cs_set.cpp:581
 msgid "ChanServ is required to enable persist on this network."
@@ -3686,7 +3686,7 @@ msgstr ""
 #
 #: modules/commands/os_mode.cpp:19
 msgid "Change channel modes"
-msgstr "Ο/η #%s# άλλαξε τα usermodes σας."
+msgstr "Ο/η %s άλλαξε τα usermodes σας."
 
 #
 #: modules/commands/ns_set.cpp:881
@@ -3697,12 +3697,12 @@ msgstr "Αλλάζει την μέθοδο επικοινωνίας με τις 
 #: modules/commands/os_mode.cpp:140
 #, fuzzy
 msgid "Change user modes"
-msgstr "Ο/η #%s# άλλαξε τα usermodes σας."
+msgstr "Ο/η %s άλλαξε τα usermodes σας."
 
 #: modules/commands/os_mode.cpp:155
 #, fuzzy, c-format
 msgid "Changed usermodes of %s to %s."
-msgstr "Τα usermodes του #%s# άλλαξαν."
+msgstr "Τα usermodes του %s άλλαξαν."
 
 #: modules/commands/ns_set.cpp:397
 #, fuzzy
@@ -3710,7 +3710,7 @@ msgid ""
 "Changes the display used to refer to the nickname group in\n"
 "Services. The new display MUST be a nick of the group."
 msgstr ""
-"Σύνταξη: #SET DISPLAY #νέο-display##\n"
+"Σύνταξη: SET DISPLAY νέο-display\n"
 "\n"
 "Βλέπεις στη λίστα το ψευδώνυμο σου σε ποια ομάδα είναι των \n"
 "υπηρεσιών. Στη λίστα πρέπει να είναι το ψευδώνυμο που είναι στην ομάδα."
@@ -3721,7 +3721,7 @@ msgid ""
 "Changes the display used to refer to your nickname group in\n"
 "Services. The new display MUST be a nick of your group."
 msgstr ""
-"Σύνταξη: #SET DISPLAY #νέο-display##\n"
+"Σύνταξη: SET DISPLAY νέο-display\n"
 "\n"
 "Βλέπεις στη λίστα το ψευδώνυμο σου σε ποια ομάδα είναι των \n"
 "υπηρεσιών. Στη λίστα πρέπει να είναι το ψευδώνυμο που είναι στην ομάδα."
@@ -3731,7 +3731,7 @@ msgid ""
 "Changes the founder of a channel. The new nickname must\n"
 "be a registered one."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# FOUNDER #ψευδώνυμο##\n"
+"Σύνταξη: %s κανάλι FOUNDER ψευδώνυμο\n"
 "\n"
 "Αλλάζει τον founder του καναλιού.  Το νέο ψευδώνυμο πρέπει να είναι\n"
 "κατοχυρωμένο."
@@ -3744,12 +3744,12 @@ msgid ""
 "language should be chosen from the following list of\n"
 "supported languages:"
 msgstr ""
-"Σύνταξη: #SET LANGUAGE #νούμερο##\n"
+"Σύνταξη: SET LANGUAGE νούμερο\n"
 "\n"
 "Αλλάζει την γλώσσα των υπηρεσιών που στέλνει με μηνύματα σε σένα\n"
 "(για παράδειγμα, όταν ανταποκρίνεσαι σε μια εντολή θα σου στείλει σε άλλη "
 "γλώσσα).\n"
-"Το #νούμερο# πρέπει να είναι ένα από τα επόμενα που υπάρχουν στην λίστα\n"
+"Το νούμερο πρέπει να είναι ένα από τα επόμενα που υπάρχουν στην λίστα\n"
 "υποστηριζόμενων γλωσσών:"
 
 #
@@ -3760,18 +3760,18 @@ msgid ""
 "language should be chosen from the following list of\n"
 "supported languages:"
 msgstr ""
-"Σύνταξη: #SET LANGUAGE #νούμερο##\n"
+"Σύνταξη: SET LANGUAGE νούμερο\n"
 "\n"
 "Αλλάζει την γλώσσα των υπηρεσιών που στέλνει με μηνύματα σε σένα\n"
 "(για παράδειγμα, όταν ανταποκρίνεσαι σε μια εντολή θα σου στείλει σε άλλη "
 "γλώσσα).\n"
-"Το #νούμερο# πρέπει να είναι ένα από τα επόμενα που υπάρχουν στην λίστα\n"
+"Το νούμερο πρέπει να είναι ένα από τα επόμενα που υπάρχουν στην λίστα\n"
 "υποστηριζόμενων γλωσσών:"
 
 #: modules/commands/ns_set.cpp:219
 msgid "Changes the password used to identify as the nick's owner."
 msgstr ""
-"Σύνταξη: #SET PASSWORD #νέος-κωδικός##\n"
+"Σύνταξη: SET PASSWORD νέος-κωδικός\n"
 "\n"
 "Αλλάζει τον κωδικό που χρησιμοποιείς για την εντολή αναγνώρισης του κάτοχου\n"
 "ψευδώνυμου."
@@ -3781,7 +3781,7 @@ msgid ""
 "Changes the password used to identify you as the nick's\n"
 "owner."
 msgstr ""
-"Σύνταξη: #SET PASSWORD #νέος-κωδικός##\n"
+"Σύνταξη: SET PASSWORD νέος-κωδικός\n"
 "\n"
 "Αλλάζει τον κωδικό που χρησιμοποιείς για την εντολή αναγνώρισης του κάτοχου\n"
 "ψευδώνυμου."
@@ -3794,7 +3794,7 @@ msgid ""
 "registered, the successor will become the new founder of the\n"
 "channel. The new nickname must be a registered one."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# SUCCESSOR #ψευδώνυμο##\n"
+"Σύνταξη: %s κανάλι SUCCESSOR ψευδώνυμο\n"
 "\n"
 "Αλλάζει τον successor του καναλιού.  Αν το ψευδώνυμο του founder\n"
 "λήξει ή σβηστεί (drop) τότε το κανάλι θα είναι ακόμα κατοχυρωμένο.\n"
@@ -3806,27 +3806,27 @@ msgstr ""
 #: modules/commands/ns_ajoin.cpp:100 modules/commands/ns_alist.cpp:48
 #, fuzzy
 msgid "Channel"
-msgstr "DROP #channel#"
+msgstr "DROP channel"
 
 #: include/language.h:85
 #, c-format
 msgid "Channel %s doesn't exist."
-msgstr "Το κανάλι #%s# είναι πλέον μόνιμο."
+msgstr "Το κανάλι %s είναι πλέον μόνιμο."
 
 #: modules/commands/cs_drop.cpp:63
 #, c-format
 msgid "Channel %s has been dropped."
-msgstr "Το κανάλι #%s# διαγράφτηκε από τις υπηρεσίες."
+msgstr "Το κανάλι %s διαγράφτηκε από τις υπηρεσίες."
 
 #: modules/commands/cs_getkey.cpp:43
 #, fuzzy, c-format
 msgid "Channel %s has no key."
-msgstr "Το κανάλι #%s# δεν έχει key."
+msgstr "Το κανάλι %s δεν έχει key."
 
 #: modules/commands/cs_register.cpp:47
 #, c-format
 msgid "Channel %s is already registered!"
-msgstr "Το κανάλι #%s# είναι ήδη κατοχυρωμένο!"
+msgstr "Το κανάλι %s είναι ήδη κατοχυρωμένο!"
 
 #: modules/commands/os_forbid.cpp:512
 #, fuzzy, c-format
@@ -3836,52 +3836,52 @@ msgstr "Αυτό το κανάλι δεν μπορεί να χρησιμοποι
 #: modules/commands/os_forbid.cpp:514
 #, fuzzy, c-format
 msgid "Channel %s is forbidden."
-msgstr "Το κανάλι #%s# δεν είναι πλέον μόνιμο."
+msgstr "Το κανάλι %s δεν είναι πλέον μόνιμο."
 
 #: modules/commands/cs_set.cpp:591
 #, c-format
 msgid "Channel %s is no longer persistent."
-msgstr "Το κανάλι #%s# δεν είναι πλέον μόνιμο."
+msgstr "Το κανάλι %s δεν είναι πλέον μόνιμο."
 
 #: modules/commands/cs_set.cpp:553
 #, c-format
 msgid "Channel %s is now persistent."
-msgstr "Το κανάλι #%s# δεν είναι πλέον μόνιμο."
+msgstr "Το κανάλι %s δεν είναι πλέον μόνιμο."
 
 #: modules/commands/cs_suspend.cpp:180
 #, c-format
 msgid "Channel %s is now released."
-msgstr "Το κανάλι #%s# έγινε release"
+msgstr "Το κανάλι %s έγινε release"
 
 #: modules/commands/cs_suspend.cpp:125
 #, c-format
 msgid "Channel %s is now suspended."
-msgstr "Το κανάλι #%s# έγινε suspend."
+msgstr "Το κανάλι %s έγινε suspend."
 
 #: include/language.h:84
 #, c-format
 msgid "Channel %s isn't registered."
-msgstr "Το κανάλι #%s# δεν μπορεί να κατοχυρωθεί."
+msgstr "Το κανάλι %s δεν μπορεί να κατοχυρωθεί."
 
 #: modules/commands/cs_suspend.cpp:172
 #, fuzzy, c-format
 msgid "Channel %s isn't suspended."
-msgstr "Το κανάλι #%s# έγινε suspend."
+msgstr "Το κανάλι %s έγινε suspend."
 
 #: modules/commands/cs_register.cpp:68
 #, fuzzy, c-format
 msgid "Channel %s registered under your account: %s"
-msgstr "Αυτό το ψευδώνυμο #%s# κατοχυρώθηκε υπό την διεύθυνσή σου: %s"
+msgstr "Αυτό το ψευδώνυμο %s κατοχυρώθηκε υπό την διεύθυνσή σου: %s"
 
 #: modules/commands/cs_set.cpp:1082
 #, c-format
 msgid "Channel %s will expire."
-msgstr "Το κανάλι %s #θα# λήξει."
+msgstr "Το κανάλι %s θα λήξει."
 
 #: modules/commands/cs_set.cpp:1076
 #, c-format
 msgid "Channel %s will not expire."
-msgstr "Το κανάλι %s #δεν θα# λήξει."
+msgstr "Το κανάλι %s δεν θα λήξει."
 
 #: modules/commands/cs_xop.cpp:479
 #, c-format
@@ -3906,12 +3906,12 @@ msgstr "Το κανάλι %s δεν έχει πια mode locks."
 #: include/language.h:83
 #, c-format
 msgid "Channel %s is currently suspended."
-msgstr "Το κανάλι #%s# έγινε suspend."
+msgstr "Το κανάλι %s έγινε suspend."
 
 #: include/language.h:102
 #, c-format
 msgid "Channel %s is not a valid channel."
-msgstr "#%s# δεν είναι σωστός τύπος ban"
+msgstr "%s δεν είναι σωστός τύπος ban"
 
 #
 #: modules/commands/os_list.cpp:67
@@ -3923,20 +3923,20 @@ msgstr "Bot λίστα:"
 #, fuzzy, c-format
 msgid "Channel stats for %s on %s:"
 msgstr ""
-"Κανάλια στα οποία ο/η #%s# έχει access:\n"
+"Κανάλια στα οποία ο/η %s έχει access:\n"
 "  Num  Channel              Level    Description "
 
 #: modules/commands/cs_access.cpp:141 modules/commands/cs_xop.cpp:142
 #: modules/commands/cs_flags.cpp:99
 #, fuzzy
 msgid "Channels may not be on access lists."
-msgstr "Ο/η #%s# δεν βρέθηκε στην access list του %s"
+msgstr "Ο/η %s δεν βρέθηκε στην access list του %s"
 
 #: modules/commands/ns_alist.cpp:105
 #, fuzzy, c-format
 msgid "Channels that %s has access on:"
 msgstr ""
-"Κανάλια στα οποία ο/η #%s# έχει access:\n"
+"Κανάλια στα οποία ο/η %s έχει access:\n"
 "  Num  Channel              Level    Description "
 
 #: modules/commands/os_stats.cpp:181
@@ -3999,9 +3999,9 @@ msgid ""
 "Checks whether the _last_ memo you sent to nick has been read\n"
 "or not. Note that this does only work with nicks, not with channels."
 msgstr ""
-"Syntax: #CHECK #nick##\n"
+"Syntax: CHECK nick\n"
 "\n"
-"Checks whether the _last_ memo you sent to #nick# has been read\n"
+"Checks whether the _last_ memo you sent to nick has been read\n"
 "or not. Note that this does only work with nicks, not with chans."
 
 #: modules/commands/os_info.cpp:227
@@ -4043,9 +4043,9 @@ msgstr "Ρυθμίζει τα kickers"
 #, fuzzy
 msgid "Configures bot kickers.  option can be one of:"
 msgstr ""
-"Σύνταξη: #SET #option# #parameters##\n"
+"Σύνταξη: SET option parameters\n"
 "\n"
-"Αλλάζει διάφορες επιλογές του ψευδωνύμου.  Η #επιλογή# μπορεί να είναι:"
+"Αλλάζει διάφορες επιλογές του ψευδωνύμου.  Η επιλογή μπορεί να είναι:"
 
 #
 #: modules/commands/bs_set.cpp:19
@@ -4143,7 +4143,7 @@ msgid ""
 "then only the respective settings are cloned.\n"
 "You must be the founder of channel and target."
 msgstr ""
-"Syntax: #CLONE #channel# #target# [all | access | akick | badwords]#\n"
+"Syntax: CLONE channel target [all | access | akick | badwords]\n"
 " \n"
 "Αντιγράφει τις ρυθμίσεις από ένα κανάλι σε ένα άλλο. Αν βάλετε κάποια "
 "παράμετρο, τότε μόνο εκείνη η ρύθμιση θα μεταφερθεί. Πρέπει να έχετε "
@@ -4195,27 +4195,27 @@ msgstr "Η λίστα Module είναι:"
 #: modules/commands/os_stats.cpp:69
 #, c-format
 msgid "Current number of AKILLs: %d"
-msgstr "Ως τώρα υπάρχουν AKILLs: #%d#"
+msgstr "Ως τώρα υπάρχουν AKILLs: %d"
 
 #: modules/commands/os_stats.cpp:89
 #, c-format
 msgid "Current number of SNLINEs: %d"
-msgstr "Ως τώρα υπάρχουν SNLINEs: #%d#"
+msgstr "Ως τώρα υπάρχουν SNLINEs: %d"
 
 #: modules/commands/os_stats.cpp:109
 #, c-format
 msgid "Current number of SQLINEs: %d"
-msgstr "Ως τώρα υπάρχουν SQLINEs: #%d#"
+msgstr "Ως τώρα υπάρχουν SQLINEs: %d"
 
 #: modules/commands/os_stats.cpp:138
 #, c-format
 msgid "Current users: %d (%d ops)"
-msgstr "Οι ως τώρα χρήστες: #%d# (#%d# ops)"
+msgstr "Οι ως τώρα χρήστες: %d (%d ops)"
 
 #: modules/commands/os_oper.cpp:71
 #, fuzzy
 msgid "DEL oper"
-msgstr "DEL #<nick>#."
+msgstr "DEL <nick>."
 
 #
 #: modules/commands/os_info.cpp:103
@@ -4226,7 +4226,7 @@ msgstr "^_στόχος^_ ^_κωδικό^_"
 #: modules/commands/ns_ajoin.cpp:232
 #, fuzzy
 msgid "DEL [nickname] channel"
-msgstr "RSEND {#nick# | #channel#} #memo-text#"
+msgstr "RSEND {nick | channel} memo-text"
 
 #
 #: modules/commands/ns_cert.cpp:259
@@ -4237,7 +4237,7 @@ msgstr "Ρυθμίζει τον κωδικό του ψευδονύμου."
 #: modules/commands/ns_access.cpp:103
 #, fuzzy
 msgid "DEL [nickname] mask"
-msgstr "DEL #<nick>#."
+msgstr "DEL <nick>."
 
 #: modules/commands/os_akill.cpp:381 modules/commands/os_sxline.cpp:419
 #: modules/commands/os_sxline.cpp:652
@@ -4251,7 +4251,7 @@ msgstr ""
 #: modules/commands/os_ignore.cpp:343
 #, fuzzy
 msgid "DEL {nick|mask}"
-msgstr "DEL #<nick>#."
+msgstr "DEL <nick>."
 
 #: modules/commands/os_news.cpp:279
 msgid "DEL {num | ALL}"
@@ -4276,7 +4276,7 @@ msgstr ""
 #: modules/commands/os_dns.cpp:667
 #, fuzzy
 msgid "DEPOOL server.name"
-msgstr "NOOP {SET|REVOKE} #server#"
+msgstr "NOOP {SET|REVOKE} server"
 
 #: modules/commands/cs_seen.cpp:163
 #, c-format
@@ -4294,7 +4294,7 @@ msgid ""
 "When you use this command any user who performs a /whois\n"
 "on you will see your real host/IP address."
 msgstr ""
-"Syntax: #OFF#\n"
+"Syntax: OFF\n"
 "Απενεργοποιεί τη vhost ενός nickname.\n"
 "Αν χρησιμοποιήσετε αυτή την εντολή και κάποιος χρήστης σας κάνει /whois\n"
 "θα δεί τη πραγματική IP σας."
@@ -4307,95 +4307,95 @@ msgstr "Απενεργοποιεί τη vhost σας."
 #: modules/commands/os_stats.cpp:72
 #, c-format
 msgid "Default AKILL expiry time: %d days"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #%d μέρες#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: %d μέρες"
 
 #: modules/commands/os_stats.cpp:76
 #, c-format
 msgid "Default AKILL expiry time: %d hours"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #%d ώρες#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: %d ώρες"
 
 #: modules/commands/os_stats.cpp:80
 #, c-format
 msgid "Default AKILL expiry time: %d minutes"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #%d λεπτά#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: %d λεπτά"
 
 #: modules/commands/os_stats.cpp:74
 msgid "Default AKILL expiry time: 1 day"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #1 μέρα#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: 1 μέρα"
 
 #: modules/commands/os_stats.cpp:78
 msgid "Default AKILL expiry time: 1 hour"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #1 ώρα#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: 1 ώρα"
 
 #: modules/commands/os_stats.cpp:82
 msgid "Default AKILL expiry time: 1 minute"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #1 λεπτό#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: 1 λεπτό"
 
 #: modules/commands/os_stats.cpp:84
 msgid "Default AKILL expiry time: No expiration"
-msgstr "Προκαθορισμένος χρόνος λήξης AKILL: #Δεν λήγει ποτέ#"
+msgstr "Προκαθορισμένος χρόνος λήξης AKILL: Δεν λήγει ποτέ"
 
 #: modules/commands/os_stats.cpp:92
 #, c-format
 msgid "Default SNLINE expiry time: %d days"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #%d μέρες#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: %d μέρες"
 
 #: modules/commands/os_stats.cpp:96
 #, c-format
 msgid "Default SNLINE expiry time: %d hours"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #%d ώρες#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: %d ώρες"
 
 #: modules/commands/os_stats.cpp:100
 #, c-format
 msgid "Default SNLINE expiry time: %d minutes"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #%d λεπτά#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: %d λεπτά"
 
 #: modules/commands/os_stats.cpp:94
 msgid "Default SNLINE expiry time: 1 day"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #1 μέρα#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: 1 μέρα"
 
 #: modules/commands/os_stats.cpp:98
 msgid "Default SNLINE expiry time: 1 hour"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #1 ώρα#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: 1 ώρα"
 
 #: modules/commands/os_stats.cpp:102
 msgid "Default SNLINE expiry time: 1 minute"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #1 λεπτό#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: 1 λεπτό"
 
 #: modules/commands/os_stats.cpp:104
 msgid "Default SNLINE expiry time: No expiration"
-msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: #Δεν λήγει ποτέ#"
+msgstr "Προκαθορισμένος χρόνος λήξης SNLINE: Δεν λήγει ποτέ"
 
 #: modules/commands/os_stats.cpp:112
 #, c-format
 msgid "Default SQLINE expiry time: %d days"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #%d μέρες#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: %d μέρες"
 
 #: modules/commands/os_stats.cpp:116
 #, c-format
 msgid "Default SQLINE expiry time: %d hours"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #%d ώρες#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: %d ώρες"
 
 #: modules/commands/os_stats.cpp:120
 #, c-format
 msgid "Default SQLINE expiry time: %d minutes"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #%d λεπτά#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: %d λεπτά"
 
 #: modules/commands/os_stats.cpp:114
 msgid "Default SQLINE expiry time: 1 day"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #1 μέρα#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: 1 μέρα"
 
 #: modules/commands/os_stats.cpp:118
 msgid "Default SQLINE expiry time: 1 hour"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #1 ώρα#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: 1 ώρα"
 
 #: modules/commands/os_stats.cpp:122
 msgid "Default SQLINE expiry time: 1 minute"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #1 λεπτό#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: 1 λεπτό"
 
 #: modules/commands/os_stats.cpp:124
 msgid "Default SQLINE expiry time: No expiration"
-msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: #Δεν λήγει ποτέ#"
+msgstr "Προκαθορισμένος χρόνος λήξης SQLINE: Δεν λήγει ποτέ"
 
 #
 #: modules/commands/os_news.cpp:351
@@ -4524,20 +4524,20 @@ msgid ""
 "   DEL 2-5,7-9\n"
 "      Deletes memos numbered 2 through 5 and 7 through 9."
 msgstr ""
-"Σύνταξη: #DEL [#κανάλι#] {#νου# | #list# | LAST | ALL}#\n"
+"Σύνταξη: DEL [κανάλι] {νου | list | LAST | ALL}\n"
 "\n"
 "Σβήνει το μήνυμα ή τα μηνύματα.  Σβήνονται μέσω της λίστας\n"
 "ανάλογα με τα νούμερα.Για παράδειγμα:\n"
 "    \n"
-"If #LAST# is given, the last memo will be deleted.\n"
-"Αν επιλέξετε #ALL#, θα σβήσετε όλα τα μηνύματά σας.\n"
+"If LAST is given, the last memo will be deleted.\n"
+"Αν επιλέξετε ALL, θα σβήσετε όλα τα μηνύματά σας.\n"
 "\n"
 "Παράδειγμα:\n"
 "\n"
-"   #DEL 1#\n"
+"   DEL 1\n"
 "      Διαγράφεται το πρώτο μήνυμα.(νούμερο 1).\n"
 "\n"
-"   #DEL 2-5,7-9#\n"
+"   DEL 2-5,7-9\n"
 "      Διαγράφονται τα μηνύματα με νούμερα 2 έως 5 και 7 έως 9."
 
 #: modules/commands/hs_del.cpp:48
@@ -4545,7 +4545,7 @@ msgid ""
 "Deletes the vhost assigned to the given nick from the\n"
 "database."
 msgstr ""
-"Syntax: #DEL# #<nick>#\n"
+"Syntax: DEL <nick>\n"
 "Διαγράφει από την βάση δεδωμένων μια vhost από ένα Nick"
 
 #
@@ -4554,7 +4554,7 @@ msgid ""
 "Deletes the vhost for all nicks in the same group as\n"
 "that of the given nick."
 msgstr ""
-"Syntax: #DELALL# #<nick>#.\n"
+"Syntax: DELALL <nick>.\n"
 "Διαγράφει όλες τις vhosts από το group του ονόματος που δώσατε."
 
 #: modules/commands/os_dns.cpp:651
@@ -4566,17 +4566,17 @@ msgstr ""
 #: modules/commands/cs_info.cpp:53 modules/commands/ns_alist.cpp:48
 #, fuzzy
 msgid "Description"
-msgstr "Περιγραφή του %s άλλαξε σε #%s#."
+msgstr "Περιγραφή του %s άλλαξε σε %s."
 
 #: modules/commands/cs_set.cpp:236
 #, c-format
 msgid "Description of %s changed to %s."
-msgstr "Περιγραφή του %s άλλαξε σε #%s#."
+msgstr "Περιγραφή του %s άλλαξε σε %s."
 
 #: modules/commands/cs_set.cpp:242
 #, fuzzy, c-format
 msgid "Description of %s unset."
-msgstr "Περιγραφή του %s άλλαξε σε #%s#."
+msgstr "Περιγραφή του %s άλλαξε σε %s."
 
 #: modules/commands/bs_info.cpp:91 modules/commands/bs_kick.cpp:1104
 msgid "Disabled"
@@ -4594,7 +4594,7 @@ msgid ""
 " \n"
 "Reason may be required on certain networks."
 msgstr ""
-"Syntax: #SUSPEND #channel# [#reason#]#\n"
+"Syntax: SUSPEND channel [reason]\n"
 "\n"
 "Εμποδίζει τον οποιονδήποτε από το να κατοχυρώσει ή να χρησιμοποιήσει το\n"
 "συγκεκριμένο κανάλι. Μπορεί να αναιρεθεί με τη χρήση της εντολής UNSUSPEND\n"
@@ -4606,23 +4606,23 @@ msgstr ""
 #: modules/commands/hs_request.cpp:332
 #, fuzzy, c-format
 msgid "Displayed %d records (%d total)."
-msgstr "Εμφανίστηκαν όλα τα records (Αριθμός: #%d#)"
+msgstr "Εμφανίστηκαν όλα τα records (Αριθμός: %d)"
 
 #: modules/commands/hs_list.cpp:122
 #, fuzzy, c-format
 msgid "Displayed all records (count: %d)."
-msgstr "Εμφανίστηκαν όλα τα records (Αριθμός: #%d#)"
+msgstr "Εμφανίστηκαν όλα τα records (Αριθμός: %d)"
 
 #: modules/commands/hs_list.cpp:120
 #, fuzzy, c-format
 msgid "Displayed records from %d to %d."
-msgstr "Εμφανίστηκαν όλα τα records από #%d# εώς #%d#"
+msgstr "Εμφανίστηκαν όλα τα records από %d εώς %d"
 
 #: modules/commands/hs_list.cpp:116
 #, fuzzy, c-format
 msgid "Displayed records matching key %s (count: %d)."
 msgstr ""
-"Εμφανίστηκαν όλα τα records που ταιριάζουν το κρητήριο #%s# (Αριθμός: #%d#)"
+"Εμφανίστηκαν όλα τα records που ταιριάζουν το κρητήριο %s (Αριθμός: %d)"
 
 #
 #: modules/commands/ns_info.cpp:19
@@ -4637,7 +4637,7 @@ msgid ""
 "your account name is used, else your current nickname is\n"
 "used."
 msgstr ""
-"Σύνταξη: #INFO #ψευδώνυμο##\n"
+"Σύνταξη: INFO ψευδώνυμο\n"
 "\n"
 "Εμφανίζει πληροφορίες για το ψευδώνυμο που θα δώσετε, όπως\n"
 "τον κάτοχο του ψευδωνύμου, την τελευταία διεύθυνση και ώρα\n"
@@ -4730,17 +4730,17 @@ msgstr ""
 #: modules/commands/ns_set.cpp:492
 #, c-format
 msgid "E-mail address for %s changed to %s."
-msgstr "Η διεύθυνση email για το #%s# άλλαξε σε #%s#."
+msgstr "Η διεύθυνση email για το %s άλλαξε σε %s."
 
 #: modules/commands/ns_set.cpp:498
 #, c-format
 msgid "E-mail address for %s unset."
-msgstr "Η διεύθυνση email για το #%s# διαγράφηκε."
+msgstr "Η διεύθυνση email για το %s διαγράφηκε."
 
 #: src/mail.cpp:80
 #, c-format
 msgid "E-mail for %s is invalid."
-msgstr "Η διεύθυνση για #%s# είναι λανθασμένη."
+msgstr "Η διεύθυνση για %s είναι λανθασμένη."
 
 #: modules/commands/os_news.cpp:309
 #, fuzzy, c-format
@@ -4751,13 +4751,13 @@ msgid ""
 "sent in order to avoid flooding the user.  If there are\n"
 "more news messages, only the most recent will be sent."
 msgstr ""
-"Syntax: #LOGONNEWS ADD #text##\n"
-"        #LOGONNEWS DEL {#num# | ALL}#\n"
-"        #LOGONNEWS LIST#\n"
+"Syntax: LOGONNEWS ADD text\n"
+"        LOGONNEWS DEL {num | ALL}\n"
+"        LOGONNEWS LIST\n"
 "\n"
 "Τροποποιεί ή εμφανίζει τη λίστα με τα logon news μηνύματα. Όταν\n"
 "ένας χρήστης συνδέεται στο δίκτυο, αυτά τα μηνύματα θα του στέλνονται.\n"
-"(Παρόλα αυτά, δεν θα του στέλνονται παραπάνω από #%d# μηνύματα\n"
+"(Παρόλα αυτά, δεν θα του στέλνονται παραπάνω από %d μηνύματα\n"
 "για να αποφευχθεί το flood του χρήστη. Αν υπάρχουν\n"
 "περισσότερα μηνύματα, θα φαίνονται τα πιο πρόσφατα.)\n"
 "Το NewsCount μπορεί να ρυθμιστεί στο services.conf.\n"
@@ -4773,13 +4773,13 @@ msgid ""
 "be sent in order to avoid flooding the user.  If there are\n"
 "more news messages, only the most recent will be sent."
 msgstr ""
-"Syntax: #OPERNEWS ADD #text##\n"
-"        #OPERNEWS DEL {#num# | ALL}#\n"
-"        #OPERNEWS LIST#\n"
+"Syntax: OPERNEWS ADD text\n"
+"        OPERNEWS DEL {num | ALL}\n"
+"        OPERNEWS LIST\n"
 " \n"
 "Τροποποιεί ή παρουσιάζει τη λίστα των opers news μηνυμάτων.  Όταν ένας user\n"
 "σηκώνει oline (με την εντολή /OPER), αυτά τα μηνύματα θα\n"
-"του στέλνονται.  (Παρ όλα αυτά δεν θα φαίνονται περισσότερα από #%d# "
+"του στέλνονται.  (Παρ όλα αυτά δεν θα φαίνονται περισσότερα από %d "
 "μηνύματα\n"
 "για να αποφευχθεί flood στον χρήστη. Αν υπάρχουν \n"
 "περισσότερα μηνύματα, θα φαίνονται τα πιο πρόσφατα.)\n"
@@ -4794,9 +4794,9 @@ msgid ""
 "user connects to the network, one (and only one) of the\n"
 "random news will be randomly chosen and sent to them."
 msgstr ""
-"Σύνταξη: #RANDOMNEWS ADD #περιεχόμενα##\n"
-"        #RANDOMNEWS DEL {#νούμερο# | ALL}#\n"
-"        #RANDOMNEWS LIST#\n"
+"Σύνταξη: RANDOMNEWS ADD περιεχόμενα\n"
+"        RANDOMNEWS DEL {νούμερο | ALL}\n"
+"        RANDOMNEWS LIST\n"
 "\n"
 "Μπορείς να προσθέσεις, να αφαιρέσεις ή να δεις την λίστα των μηνυμάτων.\n"
 "Όταν ένας χρήστης συνδεθεί στο δίκτυο, ένα (και μόνο ένα) από τα\n"
@@ -4812,7 +4812,7 @@ msgstr "  Διεύθυνση E-mail: %s"
 #: modules/commands/ns_getemail.cpp:41
 #, fuzzy, c-format
 msgid "Email matched: %s to %s."
-msgstr "Τα emails ταιριάζουν το #%s# στο #%s#."
+msgstr "Τα emails ταιριάζουν το %s στο %s."
 
 #: modules/fantasy.cpp:19
 msgid "Enable fantaisist commands"
@@ -4837,9 +4837,9 @@ msgid ""
 "channel. When disabled, users who join the channel will\n"
 "not automatically gain any status from %s."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# SECUREOPS {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι SECUREOPS {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #προστατευμένης# διαχείρησης\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή προστατευμένης διαχείρησης\n"
 "για ένα κανάλι.  Όταν ενεργοποιείται η προστατευμένη διαχείρηση, οι\n"
 "χρήστες που δεν είναι στη λίστα πρόσβασης, δε μπορούν να πάρουν op."
 
@@ -4850,10 +4850,10 @@ msgid ""
 "modes is enabled, services will remember modes set on the channel\n"
 "and attempt to re-set them the next time the channel is created."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# KEEPTOPIC {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι KEEPTOPIC {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #topic retention# του καναλιού.\n"
-"Όταν το #topic retention# είναι on, το topic του καναλιού\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή topic retention του καναλιού.\n"
+"Όταν το topic retention είναι on, το topic του καναλιού\n"
 "θα υπενθυμίζεται από τον %s μετά τον τελευταίο χρήστη που θα φύγει από\n"
 "το κανάλι, και θα αποθηκεύεται για την επόμενη φορά."
 
@@ -4880,10 +4880,10 @@ msgid ""
 "with their password will be given access to the channel\n"
 "as controlled by the access list."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# SECURE {ON | OFF}#\n"
+"Σύνταξη: %s #κανάλι SECURE {ON | OFF}\n"
 "\n"
 "Ενεργοποιεί ή απενεργοποιεί τις δυνατότητες ασφάλειας του %s για\n"
-"ένα κανάλι.  Όταν ενεργοποιείται το #SECURE#, μόνο οι χρήστες που\n"
+"ένα κανάλι.  Όταν ενεργοποιείται το SECURE, μόνο οι χρήστες που\n"
 "έχουν κατοχυρωμένα τα ψευδώνυμά τους με το %s και έχουν αναγνωριστεί\n"
 "με τον κωδικό τους, θα έχουν πρόσβαση στο κανάλι όπως ορίζεται και\n"
 "από τη λίστα πρόσβασης."
@@ -4900,16 +4900,16 @@ msgid ""
 "or equal to the SIGNKICK level on the channel won't have their\n"
 "kicks signed."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# SIGNKICK {ON | LEVEL | OFF}#\n"
+"Σύνταξη: %s κανάλι SIGNKICK {ON | LEVEL | OFF}\n"
 "\n"
 "Ενεργοποιεί ή απενεργοποιεί την επιλογή signed kicks του\n"
-"καναλιού.  Όταν ενεργοποιείται η επιλογή #SIGNKICK#, τα kicks θα \n"
+"καναλιού.  Όταν ενεργοποιείται η επιλογή SIGNKICK, τα kicks θα \n"
 "εκτελούνται  %s KICK command will have the nick that used the\n"
 "με εντολή περιέχοντας τον λόγο.\n"
 "\n"
-"Αν χρησιμοποιείς #LEVEL#, αυτοί που έχουν μεγαλύτερη level ή ίση \n"
+"Αν χρησιμοποιείς LEVEL, αυτοί που έχουν μεγαλύτερη level ή ίση \n"
 "με την SIGNKICK level του καναλιού δεν θα έχουν \n"
-"kicks signed. Δες #/msg %s HELP LEVELS# για περισσότερες πληροφορίες. "
+"kicks signed. Δες /msg %s HELP LEVELS για περισσότερες πληροφορίες. "
 
 #: modules/commands/cs_set.cpp:449
 #, fuzzy, c-format
@@ -4919,10 +4919,10 @@ msgid ""
 "ban or remove a channel status of a user that has\n"
 "a level superior or equal to his via %s commands."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# PEACE {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι PEACE {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απεεργοποιεί την εντολή #peace# στο κανάλι.\n"
-"Όταν η εντολή #peace# είναι on, ο χρήστης δεν μπορεί να κάνει kick,\n"
+"Ενεργοποιεί ή απεεργοποιεί την εντολή peace στο κανάλι.\n"
+"Όταν η εντολή peace είναι on, ο χρήστης δεν μπορεί να κάνει kick,\n"
 "ban ή να αφαιρέσει op από κάποιον χρήστη ο οποίος έχει μεγαλύτερο\n"
 "level από αυτόν ή ίσο με αυτόν μέσω εντολών %s."
 
@@ -4937,10 +4937,10 @@ msgid ""
 "channel. When restricted access is set, users not on the access list will\n"
 "instead be kicked and banned from the channel."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# RESTRICTED {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι RESTRICTED {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την ρύθμιση #restricted access# για ένα κανάλι.  "
-"Όταν η  #restricted access# έχει ενεργοποιηθεί, οι χρήστες που δεν είναι "
+"Ενεργοποιεί ή απενεργοποιεί την ρύθμιση restricted access για ένα κανάλι.  "
+"Όταν η  restricted access έχει ενεργοποιηθεί, οι χρήστες που δεν είναι "
 "στην access list θα απομακρυνθούν από το κανάλι.\n"
 
 #: modules/commands/cs_set.cpp:808
@@ -4952,10 +4952,10 @@ msgid ""
 "and not those who have founder level access through\n"
 "the access/qop command."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# SECUREFOUNDER {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι SECUREFOUNDER {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #ασφαλής founder# για ένα κανάλι.\n"
-"Όταν ενεργοποιείται η επιλογή #ασφαλής founder#, μόνο ο πραγματικός "
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή ασφαλής founder για ένα κανάλι.\n"
+"Όταν ενεργοποιείται η επιλογή ασφαλής founder, μόνο ο πραγματικός "
 "founder \n"
 "μπορεί να κάνει drop (σβήσει) το κανάλι, να αλλάξει τον κωδικό του, \n"
 "μόνο ο founder και ο successor, και όχι αυτοί που κάνουν εντολή \n"
@@ -4968,9 +4968,9 @@ msgid ""
 "When secure ops is set, users who are not on the userlist\n"
 "will not be allowed chanop status."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# SECUREOPS {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι SECUREOPS {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #προστατευμένης# διαχείρησης\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή προστατευμένης διαχείρησης\n"
 "για ένα κανάλι.  Όταν ενεργοποιείται η προστατευμένη διαχείρηση, οι\n"
 "χρήστες που δεν είναι στη λίστα πρόσβασης, δε μπορούν να πάρουν op."
 
@@ -4983,10 +4983,10 @@ msgid ""
 "last user leaves the channel, and will be restored the\n"
 "next time the channel is created."
 msgstr ""
-"Σύνταξη: #%s #κανάλι# KEEPTOPIC {ON | OFF}#\n"
+"Σύνταξη: %s κανάλι KEEPTOPIC {ON | OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #topic retention# του καναλιού.\n"
-"Όταν το #topic retention# είναι on, το topic του καναλιού\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή topic retention του καναλιού.\n"
+"Όταν το topic retention είναι on, το topic του καναλιού\n"
 "θα υπενθυμίζεται από τον %s μετά τον τελευταίο χρήστη που θα φύγει από\n"
 "το κανάλι, και θα αποθηκεύεται για την επόμενη φορά."
 
@@ -5013,7 +5013,7 @@ msgid ""
 "Additionally, services will set or unset this mode when you\n"
 "set persist on or off."
 msgstr ""
-"Syntax: #%s #channel# PERSIST {ON | OFF}#\n"
+"Syntax: %s channel PERSIST {ON | OFF}\n"
 "Ενεργοποιεί ή απενεργοποιεί τη ρύθμιση persist.\n"
 "Όταν το persist είναι ενεργοποιημένο, το bot θα μένει\n"
 "στο κανάλι ακόμη και οταν δεν έχει χρήστες.\n"

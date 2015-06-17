@@ -1202,7 +1202,7 @@ msgstr ""
 "και\n"
 "πότε θα λήξει, όπως και το user@host και τον λόγο.\n"
 "Η εντολή _AKILL CLEAR_ καθαρίζει όλες τις θέσεις της λίστας AKILL.\n"
-"Μόνο για τους #Services operators#.\t\n"
+"Μόνο για τους Services operators.\t\n"
 "    "
 
 #: modules/pseudoclients/nickserv.cpp:463
@@ -1244,9 +1244,9 @@ msgid ""
 "commands MUST have enough access for both\n"
 "the FANTASIA and the command they are executing."
 msgstr ""
-"Σύνταξη: #SET #κανάλι# FANTASY {#ON|OFF#}\n"
+"Σύνταξη: SET κανάλι FANTASY {ON|OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #fantasy# στο κανάλι.\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή fantasy στο κανάλι.\n"
 "Όταν είναι ενεργοποιημένη, οι χρήστες μπορούν να χρησιμοποιήσουν εντολές\n"
 "!op, !deop, !voice, !devoice,!kick, !kb, !unban, !seen\n"
 "στο κανάλι (ψάχνετε να δείτε πως δουλεύουν \n"
@@ -1267,9 +1267,9 @@ msgid ""
 "messages of users joining the channel, provided\n"
 "they have enough access to the channel."
 msgstr ""
-"Σύνταξη: #SET #κανάλι# GREET {#ON|OFF#}\n"
+"Σύνταξη: SET κανάλι GREET {ON|OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #greet# στο κανάλι.\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή greet στο κανάλι.\n"
 "Όταν είναι ενεργοποιημένη, το bot θα εμφανίζει το μήνυμα χαιρετισμού\n"
 "στους χρήστες που θα μπένουν στο κανάλι, με την προυπόθεση οτι\n"
 "έχουν αρκετή access στο κανάλι."
@@ -1282,9 +1282,9 @@ msgid ""
 "When it is enabled, ops won't be kicked by the bot\n"
 "even if they don't match the NOKICK level."
 msgstr ""
-"Σύνταξη: #SET #κανάλι# DONTKICKOPS {#ON|OFF#}\n"
+"Σύνταξη: SET κανάλι DONTKICKOPS {ON|OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #op προστασία# στο κανάλι.\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή op προστασία στο κανάλι.\n"
 "Όταν είναι ενεργοποιημένη, οι ops δεν θα τρώνε kick από το bot\n"
 "ακόμα και αν δεν ταιριάζοτν με την NOKICK level."
 
@@ -1296,9 +1296,9 @@ msgid ""
 "When it is enabled, voices won't be kicked by the bot\n"
 "even if they don't match the NOKICK level."
 msgstr ""
-"Σύνταξη: #SET #κανάλι# DONTKICKVOICES {#ON|OFF#}\n"
+"Σύνταξη: SET κανάλι DONTKICKVOICES {ON|OFF}\n"
 "\n"
-"Ενεργοποιεί ή απενεργοποιεί την επιλογή #voices προστασία# στο κανάλι.\n"
+"Ενεργοποιεί ή απενεργοποιεί την επιλογή voices προστασία στο κανάλι.\n"
 "Όταν είναι ενεργοποιημένη, οι voices δεν θα τρώνε kick από το bot\n"
 "ακόμα και αν δεν ταιριάζοτν με την NOKICK level."
 
@@ -1309,7 +1309,7 @@ msgid ""
 "Fantasy commands may be prefixed with one of the following characters: %s\n"
 msgstr ""
 "To Bot θα μπεί στο κανάλι όταν είναι τουλάχιστον \n"
-"#%d# χρήστες σε αυτό. Επιπλέον όλες οι %s εντολές\n"
+"%d χρήστες σε αυτό. Επιπλέον όλες οι %s εντολές\n"
 "μπορούν να χρησιμοποιηθούν αν το fantasy έχει ενεργοποιηθεί\n"
 "με τη χρήση του ονόματος της εντολής και μπροστά το σύμβολο %c."
 
@@ -1352,7 +1352,7 @@ msgstr ""
 "χωρίς να\n"
 "χρειαστεί να κάνουν εντολή αναγνώρισης και καν αλλαγή ψευδώνυμου, και "
 "μπορούν να\n"
-"δουν την  λίστα access  για κάθε ψευδώνυμο (#/msg %s ACCESS LIST #nick##)."
+"δουν την  λίστα access  για κάθε ψευδώνυμο (/msg %s ACCESS LIST nick)."
 
 #: modules/pseudoclients/chanserv.cpp:270
 #, fuzzy
@@ -1387,10 +1387,10 @@ msgid ""
 " \n"
 msgstr ""
 " \n"
-"Οι εντολές #QOP# περιορίζονται στους\n"
+"Οι εντολές QOP περιορίζονται στους\n"
 "ιδιοκτήτες (εκτώς αν το SECUREOPS είναι απενεργοποιημένο).\n"
-"Παρόλα αυτά όλοι στην λίστα #QOP# μπορούν να χρησιμοποιήσουν την εντολή #QOP "
-"LIST#\n"
+"Παρόλα αυτά όλοι στην λίστα #QOP# μπορούν να χρησιμοποιήσουν την εντολή QOP "
+"LIST\n"
 " \n"
 
 #: modules/commands/cs_xop.cpp:546
@@ -1415,22 +1415,22 @@ msgid ""
 "The %s CLEAR command clears all entries of the\n"
 "%s list."
 msgstr ""
-"Η εντολή #BADWORDS DEL# αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
+"Η εντολή BADWORDS DEL αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
 "απαγορευμένων λέξεων. Σε περίπτωση που δοθεί μια λίστα με αριθμούς "
 "καταχωρήσεων,\n"
 "αυτές οι καταχωρήσεις διαγράφονται. (Βλέπε παράδειγμα για λίστα παρακάτω.)\n"
 " \n"
-"Η εντολή #BADWORDS LIST# προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
+"Η εντολή BADWORDS LIST προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
 "δοθεί\n"
 "μια wildcard mask, τοτε μόνο οι καταχωρήσεις που αντιστοιχούν στη\n"
 "mask προβάλλονται. Αν δοθεί μια λίστα με αριθμούς καταχωρήσεων,\n"
 "τότε μόνο οι συγκεκριμένες καταχωρήσεις προβάλλονται. Για παράδειγμα:\n"
-"   #BADWORDS #channel LIST 2-5,7-9#\n"
+"   BADWORDS channel LIST 2-5,7-9\n"
 "      Προβάλλει τις καταχωρημένες απαγορευμένες λέξεις από το 2 εως το 5 "
 "και\n"
 "      απο το 7 μέχρι το 9.\n"
 " \n"
-"Η εντολή #BADWORDS CLEAR# διαγράφει όλες τις καταχωρήσεις της λίστας\n"
+"Η εντολή BADWORDS CLEAR διαγράφει όλες τις καταχωρήσεις της λίστας\n"
 "των απαγορευμένων λέξεων."
 
 #: modules/commands/cs_akick.cpp:488
@@ -1480,22 +1480,22 @@ msgid ""
 " \n"
 "AKILL CLEAR clears all entries of the AKILL list."
 msgstr ""
-"Η εντολή #BADWORDS DEL# αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
+"Η εντολή BADWORDS DEL αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
 "απαγορευμένων λέξεων. Σε περίπτωση που δοθεί μια λίστα με αριθμούς "
 "καταχωρήσεων,\n"
 "αυτές οι καταχωρήσεις διαγράφονται. (Βλέπε παράδειγμα για λίστα παρακάτω.)\n"
 " \n"
-"Η εντολή #BADWORDS LIST# προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
+"Η εντολή BADWORDS LIST προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
 "δοθεί\n"
 "μια wildcard mask, τοτε μόνο οι καταχωρήσεις που αντιστοιχούν στη\n"
 "mask προβάλλονται. Αν δοθεί μια λίστα με αριθμούς καταχωρήσεων,\n"
 "τότε μόνο οι συγκεκριμένες καταχωρήσεις προβάλλονται. Για παράδειγμα:\n"
-"   #BADWORDS #channel LIST 2-5,7-9#\n"
+"   BADWORDS channel LIST 2-5,7-9#\n"
 "      Προβάλλει τις καταχωρημένες απαγορευμένες λέξεις από το 2 εως το 5 "
 "και\n"
 "      απο το 7 μέχρι το 9.\n"
 " \n"
-"Η εντολή #BADWORDS CLEAR# διαγράφει όλες τις καταχωρήσεις της λίστας\n"
+"Η εντολή BADWORDS CLEAR διαγράφει όλες τις καταχωρήσεις της λίστας\n"
 "των απαγορευμένων λέξεων."
 
 #: modules/commands/os_sxline.cpp:455
@@ -1521,22 +1521,22 @@ msgid ""
 " \n"
 "SNLINE CLEAR clears all entries of the SNLINE list."
 msgstr ""
-"Η εντολή #BADWORDS DEL# αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
+"Η εντολή BADWORDS DEL αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
 "απαγορευμένων λέξεων. Σε περίπτωση που δοθεί μια λίστα με αριθμούς "
 "καταχωρήσεων,\n"
 "αυτές οι καταχωρήσεις διαγράφονται. (Βλέπε παράδειγμα για λίστα παρακάτω.)\n"
 " \n"
-"Η εντολή #BADWORDS LIST# προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
+"Η εντολή BADWORDS LIST προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
 "δοθεί\n"
 "μια wildcard mask, τοτε μόνο οι καταχωρήσεις που αντιστοιχούν στη\n"
 "mask προβάλλονται. Αν δοθεί μια λίστα με αριθμούς καταχωρήσεων,\n"
 "τότε μόνο οι συγκεκριμένες καταχωρήσεις προβάλλονται. Για παράδειγμα:\n"
-"   #BADWORDS #channel LIST 2-5,7-9#\n"
+"   BADWORDS channel LIST 2-5,7-9\n"
 "      Προβάλλει τις καταχωρημένες απαγορευμένες λέξεις από το 2 εως το 5 "
 "και\n"
 "      απο το 7 μέχρι το 9.\n"
 " \n"
-"Η εντολή #BADWORDS CLEAR# διαγράφει όλες τις καταχωρήσεις της λίστας\n"
+"Η εντολή BADWORDS CLEAR διαγράφει όλες τις καταχωρήσεις της λίστας\n"
 "των απαγορευμένων λέξεων."
 
 #: modules/commands/os_sxline.cpp:687
@@ -1562,22 +1562,22 @@ msgid ""
 " \n"
 "SQLINE CLEAR clears all entries of the SQLINE list."
 msgstr ""
-"Η εντολή #BADWORDS DEL# αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
+"Η εντολή BADWORDS DEL αφαιρεί τη δοσμένη λέξη από τη λίστα των\n"
 "απαγορευμένων λέξεων. Σε περίπτωση που δοθεί μια λίστα με αριθμούς "
 "καταχωρήσεων,\n"
 "αυτές οι καταχωρήσεις διαγράφονται. (Βλέπε παράδειγμα για λίστα παρακάτω.)\n"
 " \n"
-"Η εντολή #BADWORDS LIST# προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
+"Η εντολή BADWORDS LIST προβάλλει τη λίστα των απαγορευμένων λέξεων. Αν "
 "δοθεί\n"
 "μια wildcard mask, τοτε μόνο οι καταχωρήσεις που αντιστοιχούν στη\n"
 "mask προβάλλονται. Αν δοθεί μια λίστα με αριθμούς καταχωρήσεων,\n"
 "τότε μόνο οι συγκεκριμένες καταχωρήσεις προβάλλονται. Για παράδειγμα:\n"
-"   #BADWORDS #channel LIST 2-5,7-9#\n"
+"   BADWORDS channel LIST 2-5,7-9\n"
 "      Προβάλλει τις καταχωρημένες απαγορευμένες λέξεις από το 2 εως το 5 "
 "και\n"
 "      απο το 7 μέχρι το 9.\n"
 " \n"
-"Η εντολή #BADWORDS CLEAR# διαγράφει όλες τις καταχωρήσεις της λίστας\n"
+"Η εντολή BADWORDS CLEAR διαγράφει όλες τις καταχωρήσεις της λίστας\n"
 "των απαγορευμένων λέξεων."
 
 #: modules/commands/bs_assign.cpp:197
@@ -1588,13 +1588,13 @@ msgid ""
 "is already assigned to the channel, it is unassigned\n"
 "automatically when you enable the option."
 msgstr ""
-"Σύνταξη: #SET #κανάλι# NOBOT {#ON|OFF#}#\n"
+"Σύνταξη: SET κανάλι NOBOT {ON|OFF}\n"
 "\n"
 "Αυτή η επιλογή κάνει το κανάλι να είναι unassignable (να μη μπει bot). Αν \n"
 "το bot είναι ήδη assigned στο κανάλι, θα γίνει unassigned\n"
 "αυτόματα, όταν θα ενεργοποιήσεις αυτή την επιλογή.\n"
 "\n"
-"Μόνο για τους #Services Operators#."
+"Μόνο για τους Services Operators."
 
 #: modules/commands/bs_set.cpp:187
 #, fuzzy
@@ -1603,12 +1603,12 @@ msgid ""
 "This option prevents a bot from being assigned to a\n"
 "channel by users that aren't IRC Operators."
 msgstr ""
-"Σύνταξη: #SET #ψευδώνυμο-bot# PRIVATE {#ON|OFF#}#\n"
+"Σύνταξη: SET ψευδώνυμο-bot PRIVATE {ON|OFF}\n"
 "\n"
 "Αυτή η επιλογή κάνει το bot από assigned σε κανάλια\n"
 "των χρηστων που δεν είναι IRC operators.\n"
 "\n"
-"Μόνο για τους #Services Operators#."
+"Μόνο για τους Services Operators."
 
 #: modules/pseudoclients/memoserv.cpp:215
 #, c-format
@@ -1692,7 +1692,7 @@ msgstr "Τα modes %c%c%s ξεκλειδώθηκαν από το %s"
 #: modules/commands/cs_clone.cpp:140
 #, fuzzy, c-format
 msgid "%d access entries from %s have been cloned to %s."
-msgstr "Όλες οι καταχωρίσεις πρόσβασης από το #%s# έχουν μεταφερθεί στο #%s#"
+msgstr "Όλες οι καταχωρίσεις πρόσβασης από το %s έχουν μεταφερθεί στο %s"
 
 #: modules/commands/bs_botlist.cpp:56
 #, c-format
@@ -1818,12 +1818,12 @@ msgstr "Η λίστα του %s access list είναι άδεια."
 #: modules/commands/ns_ajoin.cpp:184
 #, fuzzy, c-format
 msgid "%s added to %s's auto join list."
-msgstr "Το #%s# προσθέθηκε επιτυχώς στην autojoin λίστα σας."
+msgstr "Το %s προσθέθηκε επιτυχώς στην autojoin λίστα σας."
 
 #: src/xline.cpp:360
 #, fuzzy, c-format
 msgid "%s already exists."
-msgstr "Το Bot #%s# υπάρχει ήδη."
+msgstr "Το Bot %s υπάρχει ήδη."
 
 #: modules/commands/cs_akick.cpp:177 modules/commands/cs_akick.cpp:362
 #: modules/commands/cs_akick.cpp:375
@@ -1856,32 +1856,31 @@ msgstr ""
 #: modules/commands/ms_info.cpp:94
 #, c-format
 msgid "%s currently has %d memos, of which %d are unread."
-msgstr "%s έχεις #%d# μηνύματα, εκ των οποίων #%d# δεν έχουν διαβαστεί."
+msgstr "%s έχεις %d μηνύματα, εκ των οποίων %d δεν έχουν διαβαστεί."
 
 #: modules/commands/ms_info.cpp:92
 #, c-format
 msgid "%s currently has %d memos, of which 1 is unread."
-msgstr "%s έχεις #%d# μηνύματα, εκ των οποίων #1# δεν έχει διαβαστεί."
+msgstr "%s έχεις %d μηνύματα, εκ των οποίων 1 δεν έχει διαβαστεί."
 
 #: modules/commands/ms_info.cpp:90
 #, c-format
 msgid "%s currently has %d memos."
-msgstr "%s έχεις #%d# μηνύματα."
+msgstr "%s έχεις %d μηνύματα."
 
 #: modules/commands/ms_info.cpp:88
 #, c-format
 msgid "%s currently has %d memos; all of them are unread."
-msgstr "%s έχεις #%d# μηνύματα; εκ των οποίων όλα δεν έχουν διαβαστεί."
+msgstr "%s έχεις %d μηνύματα; εκ των οποίων όλα δεν έχουν διαβαστεί."
 
 #: modules/commands/ms_info.cpp:77
 #, c-format
 msgid "%s currently has 1 memo, and it has not yet been read."
-msgstr "%s έχεις #1# μήνυμα, και δεν το έχεις διαβάσει ακόμα."
-
+msgstr "%s έχεις 1 ένα σημείωμα , και δεν έχει ακόμη διαβάσει 
 #: modules/commands/ms_info.cpp:79
 #, c-format
 msgid "%s currently has 1 memo."
-msgstr "%s έχεις #1# μήνυμα.."
+msgstr "%s έχεις 1 μήνυμα.."
 
 #: modules/commands/ms_info.cpp:73
 #, c-format
@@ -1891,17 +1890,17 @@ msgstr "%s δεν έχεις κανένα μήνυμα."
 #: modules/commands/os_forbid.cpp:332
 #, c-format
 msgid "%s deleted from the %s forbid list."
-msgstr "#%s# διαγράφτηκε από την λίστα των κακών λέξεων απο το %s."
+msgstr "%s διαγράφτηκε από την λίστα των κακών λέξεων απο το %s."
 
 #: include/language.h:106
 #, fuzzy, c-format
 msgid "%s for %s set to %s."
-msgstr "Η vhost για τον #%s# έγινε #%s#."
+msgstr "Η vhost για τον %s έγινε %s."
 
 #: include/language.h:107
 #, fuzzy, c-format
 msgid "%s for %s unset."
-msgstr "Ο Successor του #%s# δεν έχει οριστεί."
+msgstr "Ο Successor του %s δεν έχει οριστεί."
 
 #: modules/commands/ns_ajoin.cpp:176
 #, c-format
@@ -1946,12 +1945,12 @@ msgstr "%s είναι ήση μέσα στο δίκτυο."
 #: src/xline.cpp:378
 #, fuzzy, c-format
 msgid "%s is already covered by %s."
-msgstr "#%s# έχει ήδη καλυφθεί από τον %s."
+msgstr "%s έχει ήδη καλυφθεί από τον %s."
 
 #: modules/commands/ns_ajoin.cpp:170
 #, fuzzy, c-format
 msgid "%s is already on %s's auto join list."
-msgstr "#%s#  είναι ήδη στη λίστα αγνόησης σου"
+msgstr "%s  είναι ήδη στη λίστα αγνόησης σου"
 
 #
 #: modules/commands/ns_info.cpp:56
@@ -1986,17 +1985,17 @@ msgstr "%s έχει απενεργοποιηθεί."
 #: modules/commands/os_dns.cpp:505
 #, fuzzy, c-format
 msgid "%s is not a valid IP address."
-msgstr "#%s# δεν είναι σωστός τύπος ban"
+msgstr "%s δεν είναι σωστός τύπος ban"
 
 #: modules/commands/cs_log.cpp:167 modules/commands/cs_log.cpp:192
 #, fuzzy, c-format
 msgid "%s is not a valid command."
-msgstr "#%s# δεν είναι σωστός τύπος ban"
+msgstr "%s δεν είναι σωστός τύπος ban"
 
 #: modules/commands/cs_log.cpp:198
 #, fuzzy, c-format
 msgid "%s is not a valid logging method."
-msgstr "#%s# δεν είναι σωστός τύπος ban"
+msgstr "%s δεν είναι σωστός τύπος ban"
 
 #: modules/commands/ms_info.cpp:124
 #, c-format

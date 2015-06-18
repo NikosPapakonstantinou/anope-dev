@@ -20,32 +20,32 @@ msgstr ""
 #: modules/commands/os_forbid.cpp:312
 #, c-format
 msgid "%d channel(s) cleared, and %d channel(s) dropped."
-msgstr ""
+msgstr "Τα κανάλια %d καθαρίστηκαν και διαγράφηκαν επιτυχώς."
 
 #: modules/commands/os_forbid.cpp:253
 #, fuzzy, c-format
 msgid "%d nickname(s) dropped."
-msgstr "Το ψευδώνυμό σου σβήστηκε επιτυχώς από την υπηρεσία."
+msgstr "Ο χρήστης %d διαγράφηκε επιτυχώς."
 
 #: modules/commands/cs_xop.cpp:219
 #, fuzzy, c-format
 msgid "%s added to %s %s list."
-msgstr "%s προσθέθηκε στην λίστα AKILL."
+msgstr "Ο χρήστης %s πρόσθεσε %s στην λίστα %s."
 
 #: modules/commands/cs_access.cpp:220
 #, c-format
 msgid "%s added to %s access list at level %d."
-msgstr "Ο/η %s προσθέθηκε στο access list του %s με επίπεδο πρόσβασης %d."
+msgstr "Ο χρήστης %s προστέθηκε στην λίστα πρόσβασης του καναλιού %s με επίπεδο %d."
 
 #: modules/commands/cs_access.cpp:218
 #, fuzzy, c-format
 msgid "%s added to %s access list at privilege %s (level %d)"
-msgstr "Ο/η %s προσθέθηκε στο access list του %s με επίπεδο πρόσβασης %d."
+msgstr "Ο χρήστης %s προστέθηκε στην λίστα πρόσβασης του καναλιού %s με προνόμιο %s (επίπεδο %d)"
 
 #: modules/commands/cs_akick.cpp:165
 #, c-format
 msgid "%s added to %s autokick list."
-msgstr "Ο/η %s προσθέθηκε επιτυχώς στην autokick λίστα του %s."
+msgstr "Ο χρήστης %s προστέθηκε στην αυτόματη λίστα απομάκρυνσης του καναλιού %s."
 
 #: modules/commands/bs_badwords.cpp:306
 #, c-format
@@ -55,7 +55,7 @@ msgstr "%s προσθέθηκε στην λίστα των κακών λέξε
 #: modules/commands/ns_access.cpp:45
 #, fuzzy, c-format
 msgid "%s added to %s's access list."
-msgstr "%s έγινε προσθήκη στην λίστα πρόσβασής σου."
+msgstr "Η διεύθυνση %s προστέθηκε στην λίστα πρόσβασης του χρήστη %s."
 
 #: modules/commands/ns_cert.cpp:204
 #, fuzzy, c-format
@@ -65,17 +65,17 @@ msgstr "%s έγινε προσθήκη στην λίστα πρόσβασής 
 #: modules/commands/ms_ignore.cpp:56
 #, fuzzy, c-format
 msgid "%s added to ignore list."
-msgstr "%s έγινε προσθήκη στην λίστα αγνόησης σου."
+msgstr "%s προστέθηκε στην λίστα των ανεπιθύμητων χρηστών."
 
 #: modules/commands/os_sxline.cpp:408 modules/commands/os_sxline.cpp:641
 #, fuzzy, c-format
 msgid "%s added to the %s list."
-msgstr "%s προσθέθηκε στην λίστα AKILL."
+msgstr "%s προστέθηκε στην λίστα %s."
 
 #: modules/commands/os_akill.cpp:202
 #, c-format
 msgid "%s added to the AKILL list."
-msgstr "%s προσθέθηκε στην λίστα AKILL."
+msgstr "%s προστέθηκε στην λίστα AKILL."
 
 #: modules/pseudoclients/botserv.cpp:134
 #, c-format
@@ -87,6 +87,10 @@ msgid ""
 "require a channel as a parameter will automatically have that parameter\n"
 "given.\n"
 msgstr ""
+"Η παράμετρος %s επιτρέπει την εκτέλεση \"fantasy\" εντολών στο κανάλι.\n"
+"Οι \"fantasy\" εντολές είναι οι εντολές που μπορούν να διατυπωθούν στο κανάλι\n"
+"και προσφέρουν έναν πιο βολικό τρόπο εκτέλεσης.Η παράμετρος #κανάλι δίνετε\n"
+"αυτόματα στις εντολές στις οποιές συμπεριλαμβάνετε."
 
 #: modules/pseudoclients/botserv.cpp:148
 #, fuzzy, c-format
@@ -99,14 +103,13 @@ msgid ""
 "more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"Ο %s σου επιτρέπει να έχεις bot στο δικό σου κανάλι.\n"
-"Αυτή η υπηρεσια έχει δημιουργηθεί για τους χρήστες που δεν μπορούν\n"
-"να ρυθμίσουν bots ή για δίκτυα που δεν επιτρέπουν οι χρήστες να έχουν\n"
-"δικά τους bots για ασφάλεια. \n"
-"Διαθέσημες εντολές είναι οι επόμενες, για να τις δείτε γράψτε\n"
-"/msg %s command.Για περισσότερες πληροφορίες σε συγκεκριμένες\n"
-"εντολές γράψτε /msg %s HELP command. \n"
-"    "
+"Η παράμετρος %s σας επιτρέπει να έχετε ένα bot στο δικό σας κανάλι.\n"
+"Δημιουργήθηκε για τους χρήστες που δεν μπορούν να φιλοξενούν ενα bot,\n"
+"να ρυθμίσουν ένα bot ή να χρισημοποιήσουν ένα bot σε ένα δίκτυο που\n"
+"απαγορεύονται τα bots.Οι διαθέσιμες εντολές αναγράφοντε παρακάτω,\n"
+"για να τις χρισημοποιήσετε πατήστε %s%s command.\n"
+"Για περισσότερες πληροφορίες σχετικά με μια συγκεκριμένη εντολή\n"
+"πατήστε %s%s %s command.\n"
 
 #: modules/pseudoclients/nickserv.cpp:437
 #, fuzzy, c-format
@@ -118,12 +121,13 @@ msgid ""
 "For more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"O %s σας επιτρέπει να κατοχυρώσετε ένα ψευδώνυμο,\n"
-"εμποδίζοντας έτσι άλλους χρήστες να το χρησιμοποιούν.\n"
-"Οι παρακάτω εντολές, επιτρέπουν την κατοχύρωση και τη διαχείρηση των\n"
-"ψευδωνύμων; για να χρησιμοποιήσετε αυτά, γράψτε /msg %s ^_command^_.\n"
-"Για περισσότερες πληροφορίες σε μια συγκεκριμένη εντολή,γράψτε\n"
-"/msg %s HELP ^_command^_."
+"Ο %s σας επιτρέπει να κατοχυρώσετε ένα ψευδώνυμο\n"
+"εμποδίζοντας τους άλλους χρήστες να το χρησιμοποιήσουν.\n"
+"Οι παρακάτω εντολές σας επιτρέπουν την κατοχύρωση καθώς\n"
+"και την διαχείρηση των ψευδωνύμων.\n"
+"Για να τις χρησιμοποιήσετε,πατήστε %s%s command.\n"
+"Για περισσότερες πληροφορίες σχετικά με μια συγκεκριμένη εντολή\n"
+"πατήστε %s%s %s command.\n"
 
 #: modules/pseudoclients/nickserv.cpp:444
 #, fuzzy, c-format
@@ -134,12 +138,12 @@ msgid ""
 "For more information on a specific command, type\n"
 "%s%s %s command.\n"
 msgstr ""
-"O %s σας επιτρέπει να κατοχυρώσετε ένα ψευδώνυμο,\n"
-"εμποδίζοντας έτσι άλλους χρήστες να το χρησιμοποιούν.\n"
-"Οι παρακάτω εντολές, επιτρέπουν την κατοχύρωση και τη διαχείρηση των\n"
-"ψευδωνύμων; για να χρησιμοποιήσετε αυτά, γράψτε /msg %s ^_command^_.\n"
-"Για περισσότερες πληροφορίες σε μια συγκεκριμένη εντολή,γράψτε\n"
-"/msg %s HELP ^_command^_."
+"Ο %s σας επιτρέπει να κατοχυρώσετε ένα λογαριασμό.\n"
+"Οι παρακάτω εντολές σας επιτρέπουν την κατοχύρωση καθώς\n"
+"και την διαχείρηση των λογαριασμών σας.\n"
+"Για να τις χρησιμοποιήσετε,πατήστε %s%s command.\n"
+"Για περισσότερες πληροφορίες σχετικά με μια συγκεκριμένη εντολή\n"
+"πατήστε %s%s %s command.\n"
 
 #: modules/pseudoclients/chanserv.cpp:248
 #, fuzzy, c-format
@@ -152,86 +156,85 @@ msgid ""
 "%s%s command. For more information on a\n"
 "specific command, type %s%s HELP command.\n"
 msgstr ""
-"Ο %s σας επιτρέπει να κατοχυρώσετε και να χειριστείτε\n"
-"διάφορες λειτουργίες των καναλιών.  Ο %s μπορεί συνήθως\n"
-"να αποτρέψει κακόβουλους χρήστες να κάνουν \"κατάληψη\" σε\n"
-"κανάλια, με το να περιορίζει τις αρμοδιότητες των\n"
-"διαχειριστών καναλιών.  Οι διαθέσιμες εντολές, βρίσκονται\n"
-"παρακάτω.  Για να τις χρησιμοποιήσετε, πληκτρολογήστε\n"
-"/msg %s εντολή.  Για περισσότερες πληροφορίες σε μία\n"
-"συγκεκριμένη εντολή, πληκτρολογήστε /msg %s HELP εντολή.\n"
-" "
+"Ο %s σας επιτρέπει να κατοχυρώσετε ένα κανάλι καθώς\n"
+"σας δίνει και τον έλεγχο των διαφόρων πτυχών του.Ο %s μπορεί\n"
+"να αποτρέψει τους κακόβουλους χρήστες να κάνουν \"κατάληψη"\ των\n"
+"καναλιών με το να περιορίζει τα προνόμια των διαχειρηστών.\n"
+"Oι διαθέσιμες εντολές βρίσκονται παρακάτω.\n"
+"Για να τις χρησιμοποιήσετε,πατήστε %s%s command.\n"
+"Για περισσότερες πληροφορίες σχετικά με μια συγκεκριμένη εντολή\n"
+"πατήστε %s%s HELP command.\n"
 
 #: modules/commands/bs_badwords.cpp:297
 #, c-format
 msgid "%s already exists in %s bad words list."
-msgstr "Το %s υπάρχει ήδη στη λίστα κακών λέξεων του %s"
+msgstr "Η τιμή %s υπάρχει ήδη στην λίστα των κακών λέξεων του καναλιού %s."
 
 #: modules/commands/cs_akick.cpp:145
 #, c-format
 msgid "%s already exists on %s autokick list."
-msgstr "Ο/η %s υπάρχει ήδη στην autokick λίστα του %s."
+msgstr "Η τιμή %s υπάρχει ήδη στην λίστα αυτόματης απομάκρυνσης του καναλιού %s."
 
 #: modules/commands/os_session.cpp:361
 #, c-format
 msgid "%s already exists on the EXCEPTION list."
-msgstr "%s already exists on the EXCEPTION list."
+msgstr "Η τιμή %s υπάρχει ήδη στην λίστα ΕΞΑΙΡΕΣΕΩΝ."
 
 #: modules/commands/bs_kick.cpp:216 modules/commands/bs_kick.cpp:391
 #: modules/commands/bs_kick.cpp:522 modules/commands/bs_kick.cpp:653
 #, c-format
 msgid "%s cannot be taken as times to ban."
-msgstr "%s δεν μπορεί να πάρει τόσο χρόνο τo ban."
+msgstr "Η τιμή %s δεν μπορεί να ληφθεί σαν χρόνος του ban."
 
 #: modules/commands/os_mode.cpp:157
 #, fuzzy, c-format
 msgid "%s changed your usermodes to %s."
-msgstr "Ο/η %s άλλαξε τα usermodes σας."
+msgstr "Ο χρήστης %s άλλαξε τα usermodes σας σε %s."
 
 #: modules/commands/os_list.cpp:46
 #, fuzzy, c-format
 msgid "%s channel list:"
-msgstr "Τέλος λίστας καναλιού."
+msgstr "%s λίστα καναλιού:"
 
 #: modules/commands/cs_xop.cpp:347
 #, fuzzy, c-format
 msgid "%s deleted from %s %s list."
-msgstr "Ο/η %s διαγράφηκε επιτυχώς από την AOP λίστα του %s."
+msgstr "Η τιμή %s διαγράφηκε από του %s την %s λίστα."
 
 #: modules/commands/cs_access.cpp:321
 #, c-format
 msgid "%s deleted from %s access list."
-msgstr "%s διαγράφηκε από το access list του %s."
+msgstr "Η τιμή %s διαγράφηκε από την λίστα πρόσβασης του %s."
 
 #: modules/commands/cs_akick.cpp:251
 #, c-format
 msgid "%s deleted from %s autokick list."
-msgstr "Ο/η %s διαγράφτηκε από την autokick list του %s."
+msgstr "Η τιμή %s διαγράφηκε από την λίστα αυτομάτης απομάκρυνσης του καναλιού %s."
 
 #: modules/commands/bs_badwords.cpp:347
 #, c-format
 msgid "%s deleted from %s bad words list."
-msgstr "%s διαγράφτηκε από την λίστα των κακών λέξεων απο το %s."
+msgstr "Η τιμή %s διαγράφηκε από την λίστα των κακών λέξεων του %s."
 
 #: modules/commands/ns_access.cpp:72
 #, fuzzy, c-format
 msgid "%s deleted from %s's access list."
-msgstr "%s διαγράφηκε από το access list του %s."
+msgstr "Η τιμή %s διαγράφηκε από την λίστα πρόσβασης του %s."
 
 #: modules/commands/ns_cert.cpp:233
 #, fuzzy, c-format
 msgid "%s deleted from %s's certificate list."
-msgstr "%s διαγράφτηκε από την λίστα πρόσβασής σου."
+msgstr "Η τιμή %s διαγράφηκε απο την λίστα πιστοποιητικών του %s."
 
 #: modules/commands/os_session.cpp:414
 #, c-format
 msgid "%s deleted from session-limit exception list."
-msgstr "%s διαγράφηκε από την λίστα session-limit exception."
+msgstr "Η τιμή %s διαγράφηκε απο την λίστα εξαιρέσεων του session-limit."
 
 #: modules/commands/os_sxline.cpp:99
 #, c-format
 msgid "%s deleted from the %s list."
-msgstr "Ο/η %s διαγράφηκε επιτυχώς από την AOP λίστα του %s."
+msgstr "Η τιμή %s διαγράφηκε από την λίστα %s."
 
 #: modules/commands/os_akill.cpp:245
 #, c-format
@@ -241,47 +244,47 @@ msgstr "%s διαγράφηκε από την λίστα AKILL."
 #: modules/commands/cs_access.cpp:678
 #, c-format
 msgid "%s disabled on channel %s."
-msgstr "Τα %s απενεργοποιήθηκαν στο κανάλι %s."
+msgstr "%s απενεργοποιήθηκε στο κανάλι %s."
 
 #: modules/commands/cs_invite.cpp:75
 #, c-format
 msgid "%s has been invited to %s."
-msgstr "Ο/η %s προσκαλέσθηκε στο κανλάλι %s."
+msgstr "O χρήστης %s έχει προσκληθεί στο %s."
 
 #: modules/commands/os_svs.cpp:104
 #, fuzzy, c-format
 msgid "%s has been joined to %s."
-msgstr "Ο/η %s προσκαλέσθηκε στο κανλάλι %s."
+msgstr "Ο χρήστης %s έχει συνδεθεί στο %s."
 
 #: modules/commands/os_svs.cpp:152
 #, fuzzy, c-format
 msgid "%s has been parted from %s."
-msgstr "Ο/η %s  έγινε unban από το κανάλι %s."
+msgstr "Ο χρήστης %s έχει φύγει από το %s."
 
 #: modules/commands/cs_unban.cpp:96
 #, c-format
 msgid "%s has been unbanned from %s."
-msgstr "Ο/η %s  έγινε unban από το κανάλι %s."
+msgstr "Ο χρήστης %s έγινε unban από το %s."
 
 #: modules/commands/ns_alist.cpp:101
 #, fuzzy, c-format
 msgid "%s has no access in any channels."
-msgstr "%s είναι ήση μέσα στο δίκτυο."
+msgstr "Ο χρήστης %s δεν έχει πρόσβαση σε κάνενα κανάλι."
 
 #: modules/commands/cs_status.cpp:55
 #, fuzzy, c-format
 msgid "%s has no access on %s."
-msgstr "Ο/η %s προσκαλέσθηκε στο κανλάλι %s."
+msgstr "Ο χρήστης %s δεν έχει πρόσβαση στο %s."
 
 #: modules/commands/cs_set.cpp:304
 #, c-format
 msgid "%s has too many channels registered."
-msgstr "%s έχει πολλά κατοχυρωμένα κανάλια."
+msgstr "Ο χρήστης %s έχει πολλά κατοχυρωμένα κανάλια."
 
 #: modules/commands/cs_status.cpp:51
 #, fuzzy, c-format
 msgid "%s is a super administrator."
-msgstr "%s είναι services operator τού τύπου %s."
+msgstr "Ο χρήστης %s είναι πλέον super administrator."
 
 #: modules/pseudoclients/memoserv.cpp:202
 #, c-format

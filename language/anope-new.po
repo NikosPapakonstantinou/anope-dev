@@ -521,46 +521,32 @@ msgid ""
 "Note that a connecting client will \"use\" the first exception\n"
 "their host matches."
 msgstr ""
-"Σύνταξη: EXCEPTION ADD [+expiry] mask limit reason\n"
-"        EXCEPTION DEL {mask | list}\n"
-"        EXCEPTION MOVE num position\n"
-"        EXCEPTION LIST [mask | list]\n"
-"        EXCEPTION VIEW [mask | list]\n"
-"\n"
-"Επιτρέπουν στους Services Operators να ορίσουν την λίστα των hosts τα\n"
-"οποία έχουν ένα συγκεκριμένο όριο - αφήνοντας ασφαλής μηχανήματα, \n"
-"όπως είναι τα shell servers, to carry more than the default number\n"
-"of clients at a time. Αν κάποιο host περάσει από το session limit,\n"
-"όλοι οι clients που θα προσπαθήσουν να συνδεθούν με αυτό το host θα \n"
-"απορριφθούν-σκοτωθούν.Πριν ο χρήστης σκοτωθεί-απορριφθεί, θαn "
-"προειδοποιηθεί,\n"
-"με /NOTICE από τον %s. Το σημείωμα αυτό είναι επιλογή από το configuration.\n"
-"    \n"
-"EXCEPTION ADD προσθέτει το hostname στην Exception list.\n"
-"Σημείωση,αν γράψετε nick!user@host και user@host σαν μάσκες είναι "
-"λάθος! \n"
-"Μόνο πραγματικά host masks, όπως box.host.dom και *.host.dom, \n"
-"είναι επιτρεπόμενα γιατί το όριο των sessions δεν περιέχει ψευδώνυμα ή \n"
-"user names μέσα στο account. όριο πρέπει να είναι ένα νούμερο μεγαλύτερο "
-"από\n"
-"ή κοντά στο μηδέν. Αυτό εξαρτάται από τα πόσα sessions αυτό το host\n"
-"μπορεί να πάρει μέσα στο χρόνο. Ο βαθμός μηδέν σημαίνει οτι το host δεν θα "
-"έχει\n"
-"όριο στην session limit. Κοίτα το βοήθημα AKILL για περισσότερες "
-"πληροφορίες\n"
-"με την σύνταξη της εντολής και την παράμετρο #expiry#.\n"
-"EXCEPTION DEL σβήνει την δωσμένη μάσκα από την λίστα exception.\n"
-"EXCEPTION MOVE απομακρύνει το exception νούμερο σε θέση.\n"
-"EXCEPTION LIST and EXCEPTION VIEW δείχνει όλα τα έως τώρα \n"
-"exceptions; αν η καθορισμένη μάσκα δψθεί, τότε θα εμφανίζεται στη λίστα.\n"
-"EXCEPTION VIEW είναι πιο αναλυτική, εμφανίζει το ψευδώνυμο του χρήστη\n"
-"που πρόσθεσε αυτό το exception, με λόγο,μάσκα και το χρόνο λήξης σε μέρα και "
-"ώρα.\n"
-"    \n"
-"Σημείωση το συνδεδεμένο client θα \"χρησιμοποιεί\" την πρώτη exception\n"
-"και όπου ταιριάξει το host.\n"
-"    \n"
-"Μόνο για τους Επικεφαλείς Υπηρεσιών."
+"EXCEPTION ADD προσθέτει μια μάσκα στην λίστα εξαιρέσεων.\n"
+"Σημειώστε ότι οι μάσκες nick!user@host και user@host είναι λάθος!\n"
+"Μόνο αληθινές μάσκες όπως mirc.com.gr και *.mirc.com.gr,\n"
+"επιτρέπονται επειδή μία συνεδρία δεν δέχεται ψευδώνυμα ή\n"
+"ονόματα λογαριασμών.Το limit πρέπει πρέπει να είναι ένας αριθμός\n"
+"μεγαλύτερος ή ίσος του μηδενός.Αυτό καθορίζει πόσες συνεδρίες μιας\n" 
+"διεύθυνσης επιτρέπονται την συγκεκριμένη χρονική στιγμή.\n"
+"Μια μηδενική τιμή σημαίνει ότι η διεύθυνση έχει απεριόριστες συνεδρίες.\n"
+"Δείτε στην βοήθεια AKILL περισσότερες πληροφορίες που αφορούν την\n" 
+"σύνταξη της προαιρετικής παραμέτρου expiry.\n"
+" \n"
+"EXCEPTION DEL διαγράφει την μάσκα από την λίστα εξαιρέσεων.\n"
+" \n"
+"EXCEPTION MOVE μετακινεί μια εξαίρεση σε άλλη θέση. Οι\n"
+"συνεδρίες ενδιάμεσα θα μετακινηθούν για να καλύψουν το κενό.\n"
+" \n"
+"EXCEPTION LIST και EXCEPTION VIEW σας δείχνουν τις τρέχουσες\n"
+"συνεδρίες της προαιρετικής μάσκας που δίνεται, η λίστα\n"
+"είναι περιορισμένη σε αυτές τις συνεδρίες που ταιριάζουν\n"
+"με την μάσκα.Η διαφορά είναι ότι η εντολή EXCEPTION VIEW\n"
+"είναι πιο λεπτομερείς,δείχνει το όνομα που πρόσθεσε την\n"
+"εξαίρεση,τα όρια συνεδριών,την αιτιολογία,την διεύθυνση,\n"
+"καθώς και την ώρα/ημερομηνία λήξης.\n"
+" \n"
+"Σημειώστε ότι ένας συνδεδεμένος χρήστης θα χρησιμοποιήσει\n"
+"την πρώτη εξαίρεση που ταιριάζει στην διεύθυνση του.\n"
 
 #: modules/commands/os_noop.cpp:68
 msgid ""
@@ -569,6 +555,10 @@ msgid ""
 "up on the given server. REVOKE removes this\n"
 "restriction."
 msgstr ""
+"SET αποσυνδέει όλους τους operators του\n"
+"συγκεκριμένου server και τους αποτρέπει\n"
+"να σηκώσουν oline.REVOKE διαγραφεί αυτόν\n"
+"τον περιορισμό.\n"
 
 #: modules/commands/cs_access.cpp:604
 #, c-format
@@ -577,6 +567,9 @@ msgid ""
 "%s command; type %s%s HELP LEVELS for\n"
 "information."
 msgstr ""
+"User access levels εμφανίζονται με την χρήση\n"
+"της εντολής %s.Πατήστε %s%s HELP LEVELS\n"
+"για περισσότερες πληροφορίες."
 
 #: modules/commands/ms_read.cpp:35
 #, c-format
@@ -587,16 +580,16 @@ msgstr "[auto-memo] Το memo που στείλατε στο %s έχει δι�
 #: modules/commands/ns_group.cpp:78
 #, fuzzy
 msgid "[target] [password]"
-msgstr "^_στόχος^_ ^_κωδικό^_"
+msgstr "[στόχος] [κωδικός]"
 
 #: modules/commands/ns_set.cpp:435
 msgid "address"
-msgstr ""
+msgstr "διεύθυνση"
 
 #: modules/commands/bs_set.cpp:150
 #, fuzzy
 msgid "botname {ON|OFF}"
-msgstr "SASET nickname AUTOOP {ON | OFF}"
+msgstr ""
 
 #: modules/commands/cs_suspend.cpp:152 modules/commands/cs_sync.cpp:20
 #: modules/commands/bs_assign.cpp:91 modules/commands/cs_log.cpp:106
@@ -604,7 +597,7 @@ msgstr "SASET nickname AUTOOP {ON | OFF}"
 #: modules/extra/stats/cs_fantasy_top.cpp:39
 #: modules/extra/stats/cs_fantasy_top.cpp:51
 msgid "channel"
-msgstr "DROP channel"
+msgstr ""
 
 #: modules/commands/cs_set.cpp:135
 msgid "channel bantype"
@@ -613,18 +606,18 @@ msgstr ""
 #: modules/commands/cs_drop.cpp:20
 #, fuzzy
 msgid "channel channel"
-msgstr "ACT κανάλι κείμενο"
+msgstr ""
 
 #
 #: modules/commands/cs_log.cpp:107
 #, fuzzy
 msgid "channel command method [status]"
-msgstr "KICK channel option {ON|OFF} [settings]"
+msgstr "channel command method [status]"
 
 #: modules/commands/cs_kick.cpp:21
 #, fuzzy
 msgid "channel mask [reason]"
-msgstr "BAN channel nick [reason]"
+msgstr ""
 
 #: modules/commands/os_mode.cpp:20
 msgid "channel modes"
@@ -633,11 +626,11 @@ msgstr ""
 #: modules/commands/bs_assign.cpp:20 modules/commands/cs_set.cpp:264
 #: modules/commands/cs_set.cpp:962
 msgid "channel nick"
-msgstr "UNBAN κανάλι [nick]"
+msgstr ""
 
 #: modules/commands/cs_kick.cpp:20
 msgid "channel nick [reason]"
-msgstr "BAN channel nick [reason]"
+msgstr "channel nick [reason]"
 
 #: modules/commands/cs_clone.cpp:21
 msgid "channel target [what]"
@@ -645,26 +638,26 @@ msgstr ""
 
 #: modules/commands/bs_control.cpp:20 modules/commands/bs_control.cpp:80
 msgid "channel text"
-msgstr "ACT κανάλι κείμενο"
+msgstr "κανάλι κείμενο"
 
 #: modules/commands/bs_set.cpp:79
 #, fuzzy
 msgid "channel time"
-msgstr "ACT κανάλι κείμενο"
+msgstr ""
 
 #: modules/commands/os_kick.cpp:20
 msgid "channel user reason"
-msgstr "KICK channel user reason"
+msgstr "channel user reason"
 
 #: modules/commands/cs_enforce.cpp:228
 #, fuzzy
 msgid "channel what"
-msgstr "ACT κανάλι κείμενο"
+msgstr ""
 
 #: modules/commands/cs_xop.cpp:485
 #, fuzzy
 msgid "channel ADD mask"
-msgstr "ACT κανάλι κείμενο"
+msgstr ""
 
 #: modules/commands/cs_access.cpp:494
 msgid "channel ADD mask level"
@@ -673,7 +666,7 @@ msgstr ""
 #: modules/commands/cs_entrymsg.cpp:194
 #, fuzzy
 msgid "channel ADD message"
-msgstr "ACT κανάλι κείμενο"
+msgstr ""
 
 #: modules/commands/bs_badwords.cpp:370
 msgid "channel ADD word [SINGLE | START | END]"
@@ -686,7 +679,7 @@ msgstr ""
 #: modules/commands/cs_topic.cpp:158
 #, fuzzy
 msgid "channel APPEND topic"
-msgstr "TOPIC κανάλι [topic]"
+msgstr ""
 
 #: modules/commands/cs_access.cpp:498 modules/commands/bs_badwords.cpp:373
 #: modules/commands/cs_xop.cpp:488 modules/commands/cs_flags.cpp:375
@@ -697,17 +690,17 @@ msgstr ""
 #: modules/commands/cs_mode.cpp:681
 #, fuzzy
 msgid "channel CLEAR [what]"
-msgstr "TOPIC #κανάλι# [#topic#]"
+msgstr ""
 
 #: modules/commands/os_mode.cpp:21
 #, fuzzy
 msgid "channel CLEAR [ALL]"
-msgstr "DROP channel"
+msgstr ""
 
 #: modules/commands/cs_entrymsg.cpp:195
 #, fuzzy
 msgid "channel DEL num"
-msgstr "UNBAN κανάλι [nick]"
+msgstr ""
 
 #: modules/commands/cs_access.cpp:495 modules/commands/cs_xop.cpp:486
 msgid "channel DEL {mask | entry-num | list}"
@@ -746,7 +739,7 @@ msgstr ""
 #: modules/commands/cs_mode.cpp:679
 #, fuzzy
 msgid "channel LOCK {ADD|DEL|SET|LIST} [what]"
-msgstr "AOP channel {ADD|DEL|LIST|CLEAR} [nick | entry-list]"
+msgstr ""
 
 #: modules/commands/cs_flags.cpp:373
 msgid "channel MODIFY mask changes"
@@ -767,7 +760,7 @@ msgstr ""
 #: modules/commands/cs_topic.cpp:157
 #, fuzzy
 msgid "channel SET [topic]"
-msgstr "TOPIC κανάλι [topic]"
+msgstr ""
 
 #: modules/commands/cs_akick.cpp:426
 msgid "channel VIEW [mask | entry-num | list]"
@@ -780,11 +773,11 @@ msgstr ""
 #
 #: modules/commands/cs_set.cpp:202 modules/commands/cs_register.cpp:20
 msgid "channel [description]"
-msgstr "Αλλάζει την περιγραφή του καναλιού"
+msgstr ""
 
 #: modules/commands/cs_invite.cpp:20 modules/commands/cs_unban.cpp:20
 msgid "channel [nick]"
-msgstr "UNBAN κανάλι [nick]"
+msgstr ""
 
 #: modules/commands/cs_set_misc.cpp:95
 msgid "channel [parameters]"
@@ -793,46 +786,46 @@ msgstr ""
 #: modules/commands/cs_status.cpp:20 modules/commands/cs_mode.cpp:752
 #, fuzzy
 msgid "channel [user]"
-msgstr "UNBAN κανάλι [nick]"
+msgstr ""
 
 #: modules/commands/cs_suspend.cpp:59
 #, fuzzy
 msgid "channel [+expiry] [reason]"
-msgstr "BAN channel nick [reason]"
+msgstr ""
 
 #: modules/commands/cs_ban.cpp:41
 #, fuzzy
 msgid "channel [+expiry] {nick | mask} [reason]"
-msgstr "BAN channel nick [reason]"
+msgstr ""
 
 #: modules/commands/cs_topic.cpp:159
 #, fuzzy
 msgid "channel [UNLOCK|LOCK]"
-msgstr "SET channel XOP {ON | OFF}"
+msgstr ""
 
 #: modules/fantasy.cpp:20 modules/commands/greet.cpp:20
 #: modules/commands/bs_assign.cpp:154
 #, fuzzy
 msgid "channel {ON|OFF}"
-msgstr "SET channel XOP {ON | OFF}"
+msgstr ""
 
 #
 #: modules/commands/bs_kick.cpp:493
 #, fuzzy
 msgid "channel {ON|OFF} [ttb [ln [secs]]]"
-msgstr "KICK channel option {ON|OFF} [settings]"
+msgstr ""
 
 #
 #: modules/commands/bs_kick.cpp:363
 #, fuzzy
 msgid "channel {ON|OFF} [ttb [min [percent]]]"
-msgstr "KICK channel option {ON|OFF} [settings]"
+msgstr ""
 
 #
 #: modules/commands/bs_kick.cpp:625
 #, fuzzy
 msgid "channel {ON|OFF} [ttb [num]]"
-msgstr "KICK channel option {ON|OFF} [settings]"
+msgstr ""
 
 #: modules/commands/bs_kick.cpp:254 modules/commands/bs_kick.cpp:290
 #: modules/commands/bs_kick.cpp:329 modules/commands/bs_kick.cpp:459
@@ -840,7 +833,7 @@ msgstr "KICK channel option {ON|OFF} [settings]"
 #: modules/commands/bs_kick.cpp:747
 #, fuzzy
 msgid "channel {ON|OFF} [ttb]"
-msgstr "SET channel XOP {ON | OFF}"
+msgstr ""
 
 #: modules/commands/cs_access.cpp:736
 msgid "channel {DIS | DISABLE} type"
@@ -849,7 +842,7 @@ msgstr ""
 #: modules/commands/cs_set.cpp:885
 #, fuzzy
 msgid "channel {ON | LEVEL | OFF}"
-msgstr "SET channel SIGNKICK {ON | LEVEL | OFF}"
+msgstr ""
 
 #: modules/commands/cs_list.cpp:181 modules/commands/bs_kick.cpp:781
 #: modules/commands/bs_kick.cpp:846 modules/commands/cs_topic.cpp:21
@@ -859,7 +852,7 @@ msgstr "SET channel SIGNKICK {ON | LEVEL | OFF}"
 #: modules/commands/cs_set.cpp:759 modules/commands/cs_set.cpp:823
 #: modules/commands/cs_set.cpp:1048 modules/extra/stats/m_chanstats.cpp:10
 msgid "channel {ON | OFF}"
-msgstr "SET channel XOP {ON | OFF}"
+msgstr ""
 
 #: modules/commands/ns_getemail.cpp:24
 msgid "email"
@@ -871,7 +864,7 @@ msgstr ""
 
 #: modules/commands/ms_sendall.cpp:25 modules/commands/ms_staff.cpp:25
 msgid "memo-text"
-msgstr "STAFF memo-text"
+msgstr ""
 
 #: modules/commands/gl_global.cpp:22 modules/commands/greet.cpp:84
 msgid "message"
@@ -900,12 +893,12 @@ msgstr ""
 #: modules/commands/os_svs.cpp:79
 #, fuzzy
 msgid "nick channel"
-msgstr "RSEND {nick | channel} memo-text"
+msgstr ""
 
 #: modules/commands/os_svs.cpp:123
 #, fuzzy
 msgid "nick channel [reason]"
-msgstr "BAN channel nick [reason]"
+msgstr ""
 
 #: modules/commands/os_oline.cpp:20
 msgid "nick flags"
@@ -913,7 +906,7 @@ msgstr ""
 
 #: modules/commands/hs_set.cpp:20 modules/commands/hs_set.cpp:126
 msgid "nick hostmask"
-msgstr "SET <nick> <hostmask>."
+msgstr ""
 
 #: modules/commands/os_svs.cpp:20
 msgid "nick newnick"
@@ -922,12 +915,12 @@ msgstr ""
 #: modules/commands/hs_request.cpp:236
 #, fuzzy
 msgid "nick [reason]"
-msgstr "BAN channel nick [reason]"
+msgstr ""
 
 #: modules/commands/ns_drop.cpp:19 modules/commands/ns_getpass.cpp:20
 #: modules/commands/ns_suspend.cpp:161
 msgid "nickname"
-msgstr "CHECK nickname"
+msgstr ""
 
 #: modules/commands/ns_set.cpp:525
 msgid "nickname address"
@@ -936,7 +929,7 @@ msgstr ""
 #: modules/commands/ns_resetpass.cpp:22
 #, fuzzy
 msgid "nickname email"
-msgstr "DEL <nick>."
+msgstr ""
 
 #: modules/commands/ns_set.cpp:848
 msgid "nickname language"
@@ -953,7 +946,7 @@ msgstr ""
 #
 #: modules/commands/ns_set.cpp:168
 msgid "nickname new-password"
-msgstr "Ρυθμίζει τον κωδικό του ψευδονύμου."
+msgstr ""
 
 #: modules/commands/ns_set_misc.cpp:169
 msgid "nickname [parameter]"
@@ -963,33 +956,33 @@ msgstr ""
 #: modules/commands/ns_recover.cpp:130
 #, fuzzy
 msgid "nickname [password]"
-msgstr "Ρυθμίζει τον κωδικό του ψευδονύμου."
+msgstr ""
 
 #: modules/commands/ns_suspend.cpp:61
 #, fuzzy
 msgid "nickname [+expiry] [reason]"
-msgstr "SUSPEND nickname reason"
+msgstr ""
 
 #: modules/commands/ns_info.cpp:239
 #, fuzzy
 msgid "nickname {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}"
-msgstr "SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}"
+msgstr ""
 
 #: modules/commands/ns_set.cpp:294 modules/commands/ns_set.cpp:610
 #: modules/commands/ns_set.cpp:961 modules/commands/ns_set.cpp:1052
 #: modules/commands/ns_set.cpp:1081 modules/commands/ns_list.cpp:252
 #: modules/extra/stats/m_chanstats.cpp:122
 msgid "nickname {ON | OFF}"
-msgstr "SASET nickname AUTOOP {ON | OFF}"
+msgstr ""
 
 #: modules/commands/ns_set.cpp:739
 msgid "nickname {ON | QUICK | IMMED | OFF}"
-msgstr "SASET nickname KILL {ON | QUICK | IMMED | OFF}"
+msgstr ""
 
 #: modules/commands/bs_set.cpp:20
 #, fuzzy
 msgid "option (channel | bot) settings"
-msgstr "SET channel option settings"
+msgstr ""
 
 #: modules/commands/cs_set.cpp:21
 msgid "option channel parameters"
@@ -999,7 +992,7 @@ msgstr ""
 #: modules/commands/bs_kick.cpp:122
 #, fuzzy
 msgid "option channel {ON|OFF} [settings]"
-msgstr "KICK channel option {ON|OFF} [settings]"
+msgstr ""
 
 #: modules/commands/ns_set.cpp:72
 msgid "option nickname parameters"
@@ -1011,7 +1004,7 @@ msgstr ""
 
 #: modules/commands/os_set.cpp:170
 msgid "option setting"
-msgstr "SET option setting"
+msgstr ""
 
 #: modules/commands/ns_register.cpp:22
 msgid "passcode"
@@ -1020,30 +1013,30 @@ msgstr ""
 #
 #: modules/commands/os_login.cpp:20
 msgid "password"
-msgstr "LOGIN password"
+msgstr ""
 
 #
 #: modules/commands/ns_register.cpp:108
 msgid "password [email]"
-msgstr "^_κωδικό^_ ^_email^_"
+msgstr ""
 
 #
 #: modules/commands/ns_register.cpp:106
 msgid "password email"
-msgstr "^_κωδικό^_ ^_email^_"
+msgstr ""
 
 #: modules/commands/cs_list.cpp:21
 #, fuzzy
 msgid "pattern [SUSPENDED] [NOEXPIRE]"
-msgstr "LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
+msgstr ""
 
 #: modules/commands/ns_list.cpp:20
 msgid "pattern [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
-msgstr "LIST pattern [FORBIDDEN] [SUSPENDED] [NOEXPIRE] [UNCONFIRMED]"
+msgstr ""
 
 #: modules/commands/os_jupe.cpp:20
 msgid "server [reason]"
-msgstr "JUPE servername [reason]"
+msgstr ""
 
 #: modules/commands/os_mode.cpp:141
 msgid "user modes"
@@ -1064,12 +1057,11 @@ msgid ""
 "will result in, at minimum, loss of the abused\n"
 "nickname(s)."
 msgstr ""
-"ΠΑΡΑΤΗΡΗΣΗ: Αυτή η υπηρεσία σκοπεύει να παρέχει ένα τρόπο\n"
-"στους χρήστες του δικτύου, να διασφαλίσουν ότι η ταυτότητά\n"
-"τους δεν εκτίθεται.  ΔΕΝ υφίσταται για να εξυπηρετεί ή να\n"
-"διευκολήνει την \"κλοπή\" των ψευδωνύμων ή άλλες νοσηρές\n"
-"ενέργειες.  Η κατάχρηση του %s θα οδηγήσει, τουλάχιστον,\n"
-"σε απώλεια των ανάλογων ψευδωνύμων."
+"NOTICE: Η υπηρεσία αυτή έχει ως στόχο να παρέχει έναν\n"
+"τρόπο για τους χρήστες του IRC να εξασφαλίσουν ότι η ταυτότητά\n"
+"τους δεν είναι σε κίνδυνο.Δεν αποσκοπεί στην διευκόλυνση μιας\n"
+"κλοπής ψευδωνύμων ή άλλες κακόβουλες ενέργειες.Η κατάχρηση του\n"
+"%s θα έχει ως αποτέλεσμα,τον μόνιμο αποκλεισμό των λογαριασμών.\n"
 
 #
 #: modules/commands/os_sxline.cpp:433

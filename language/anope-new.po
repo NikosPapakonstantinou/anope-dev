@@ -1393,10 +1393,10 @@ msgstr ""
 "απομάκρυνσης ή επιλεκτικά μόνο εκείνες τις τιμές που\n"
 "ταιριάζουν στην μάσκα που δώσατε.\n"
 " \n"
-"Η εντολή AKICK VIEW είναι μία πιο λεπτομερείς έκδοση\n"
+"Η εντολή AKICK VIEW είναι μία πιο λεπτομερής έκδοση\n"
 "της εντολής AKICK LIST.\n"
 " \n"
-"Η εντολή AKICK ENFORCE αναγκάζει τον %s να επιβάλει\n"
+"Η εντολή AKICK ENFORCE αναγκάζει τον %s να επιβάλλει\n"
 "την τρέχουσα λίστα AKICK με την αυτόματη απομάκρυνση\n"
 "των χρηστών που ταιριάζουν σε μία AKICK μάσκα.\n"
 " \n"
@@ -1440,7 +1440,7 @@ msgstr ""
 "      Οι τιμές της λίστας AKILL που θα εμφανιστούν είναι\n"
 "      από το 2 μέχρι το 5 και από το 7 μέχρι το 9.\n"
 "      \n"
-"Η εντολή AKILL VIEW είναι μία πιο λεπτομερείς έκδοση\n"
+"Η εντολή AKILL VIEW είναι μία πιο λεπτομερής έκδοση\n"
 "της εντολής AKICK LIST και δείχνει ποιος πρόσθεσε το\n"
 "AKICK,την ημερομηνία που προστέθηκε,την ημερομηνία λήξης,\n"
 "καθώς την μάσκα user@host/ip και την αιτιολογία."
@@ -1485,7 +1485,7 @@ msgstr ""
 "      Οι τιμές της λίστας SNLINE που θα εμφανιστούν είναι\n"
 "      από το 2 μέχρι το 5 και από το 7 μέχρι το 9.\n"
 "      \n"
-"Η εντολή SNLINE VIEW είναι μία πιο λεπτομερείς έκδοση\n"
+"Η εντολή SNLINE VIEW είναι μία πιο λεπτομερής έκδοση\n"
 "της εντολής SNLINE LIST και δείχνει ποιος πρόσθεσε το\n"
 "SNLINE,την ημερομηνία που προστέθηκε,την ημερομηνία λήξης,\n"
 "καθώς την μάσκα user@host/ip και την αιτιολογία."
@@ -1530,7 +1530,7 @@ msgstr ""
 "      Οι τιμές της λίστας SQLINE που θα εμφανιστούν είναι\n"
 "      από το 2 μέχρι το 5 και από το 7 μέχρι το 9.\n"
 "      \n"
-"Η εντολή SQLINE VIEW είναι μία πιο λεπτομερείς έκδοση\n"
+"Η εντολή SQLINE VIEW είναι μία πιο λεπτομερής έκδοση\n"
 "της εντολής SQLINE LIST και δείχνει ποιος πρόσθεσε το\n"
 "SQLINE,την ημερομηνία που προστέθηκε,την ημερομηνία λήξης,\n"
 "καθώς την μάσκα user@host/ip και την αιτιολογία."
@@ -1571,7 +1571,7 @@ msgid ""
 msgstr ""
 " \n"
 "Πληκτρολογήστε %s%s HELP command για αναλυτική\n"
-"βοήθεια τις παραπάνω εντολές."
+"βοήθεια στις παραπάνω εντολές."
 
 #: modules/commands/os_oper.cpp:153
 #, c-format
@@ -1805,7 +1805,7 @@ msgstr "Εντολές %s:"
 #: include/language.h:70
 #, c-format
 msgid "%s coverage is too wide; Please use a more specific mask."
-msgstr "%s ή κάλυψη είναι πολύ μεγάλη.Παρακαλώ χρησιμοποιήστε μια πιο συγκεκριμένη μάσκα."
+msgstr "%s η κάλυψη είναι πολύ μεγάλη.Παρακαλώ χρησιμοποιήστε μια πιο συγκεκριμένη μάσκα."
 
 #: modules/commands/ms_info.cpp:94
 #, c-format
@@ -2017,12 +2017,12 @@ msgstr "%s τον είδαμε τελευταία φορά εδώ πριν απ�
 #: modules/commands/ns_ajoin.cpp:213
 #, fuzzy, c-format
 msgid "%s was not found on %s's auto join list."
-msgstr "%s δεν βρέθηκε στην λίστα autojoin του %s."
+msgstr "%s δεν βρέθηκε στην λίστα auto join του %s."
 
 #: modules/commands/ns_ajoin.cpp:221
 #, fuzzy, c-format
 msgid "%s was removed from %s's auto join list."
-msgstr "%s διαγράφτηκε από την λίστα autojoin του %s."
+msgstr "%s διαγράφτηκε από την λίστα auto join του %s."
 
 #: modules/commands/ms_set.cpp:64
 #, c-format
@@ -2051,7 +2051,7 @@ msgstr "%s θα λαμβάνετε ειδοποίηση για μηνύματα 
 #: modules/commands/bs_bot.cpp:82
 #, c-format
 msgid "%s!%s@%s (%s) added to the bot list."
-msgstr "%s!%s@%s (%s) προσθέθηκε στη λίστα των bots."
+msgstr "%s!%s@%s (%s) προστέθηκε στη λίστα των bots."
 
 #: modules/commands/ns_access.cpp:83
 #, fuzzy, c-format
@@ -2216,7 +2216,7 @@ msgstr "Ένα vHost ident πρέπει να είναι της μορφή ενό
 
 #: include/language.h:123
 msgid "A vHost must be in the format of a valid hostname."
-msgstr "Ένα vHost πρέπει να είναι της μορφή ενός έγκυρου hostname."
+msgstr "Ένα vHost πρέπει να είναι της μορφής ενός έγκυρου hostname."
 
 #: modules/commands/os_ignore.cpp:342
 #, fuzzy

@@ -2484,7 +2484,7 @@ msgstr ""
 
 #: modules/commands/ms_del.cpp:111
 msgid "All of your memos have been deleted."
-msgstr "Όλα τα μηνύματα σαςέχουν διαγραφεί."
+msgstr "Όλα τα μηνύματα σας έχουν διαγραφεί."
 
 #: modules/commands/os_news.cpp:48
 msgid "All oper news items deleted."
@@ -2579,7 +2579,7 @@ msgstr "Επιτρέπεται να πάρετε την πλήρη έξοδο τ
 
 #: src/access.cpp:37
 msgid "Allowed to issue commands restricted to channel founders"
-msgstr "Επιτρέπεται να εκδίδεται εντολές που περιορίζονται στους ιδρυτές του καναλιού."
+msgstr "Επιτρέπεται να εκδίδετε εντολές που περιορίζονται στους ιδρυτές του καναλιού."
 
 #: src/access.cpp:34
 msgid "Allowed to modify channel badwords list"
@@ -2609,7 +2609,7 @@ msgstr "Επιτρέπεται να χρησιμοποιηθεί η εντολή
 
 #: src/access.cpp:54
 msgid "Allowed to use SAY and ACT commands"
-msgstr "Επιτρέπεται να χρησιμοποιηθουν οι εντολές SAY και ACT"
+msgstr "Επιτρέπεται να χρησιμοποιηθούν οι εντολές SAY και ACT"
 
 #
 #: src/access.cpp:36

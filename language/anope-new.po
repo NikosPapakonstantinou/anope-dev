@@ -2435,10 +2435,10 @@ msgid ""
 "can be executed by prefixing the command name with\n"
 "one of the following characters: %s"
 msgstr ""
-"To Bot θα μπεί στο κανάλι όταν είναι τουλάχιστον \n"
-"%d χρήστες σε αυτό. Επιπλέον όλες οι %s εντολές\n"
-"μπορούν να χρησιμοποιηθούν αν το fantasy έχει ενεργοποιηθεί\n"
-"με τη χρήση του ονόματος της εντολής και μπροστά το σύμβολο %c."
+"Επιπλέον, εάν το fantasy είναι ενεργοποιημένο τότε\n"
+"οι φανταστικές εντολές μπορούν να εκτελεστούν με το\n"
+"πρόθεμα στο όνομα της εντολής που είναι ένα από τους\n"
+"ακόλουθους χαρακτήρες: %s"
 
 #: modules/commands/os_noop.cpp:58
 #, c-format
@@ -2448,7 +2448,7 @@ msgstr "Όλες οι O:lines του %s έχουν σβηστεί."
 #: modules/commands/cs_clone.cpp:154
 #, fuzzy, c-format
 msgid "All akick entries from %s have been cloned to %s."
-msgstr "Όλες οι καταχωρίσεις akick από το %s έχουν μεταφερθεί στο %s"
+msgstr "Όλες οι καταχωρήσεις akick από το %s έχουν κλωνοποιηθεί στο %s."
 
 #: modules/commands/help.cpp:57
 #, fuzzy, c-format
@@ -2458,186 +2458,188 @@ msgstr "Δεν υπάρχει διαθέσιμη βοήθεια για %s."
 #: modules/commands/cs_clone.cpp:178
 #, fuzzy, c-format
 msgid "All badword entries from %s have been cloned to %s."
-msgstr "Όλες οι καταχωρίσεις badword από το %s έχουν μεταφερθεί στο %s"
+msgstr "Όλες οι καταχωρήσεις των κακών λέξεων από το %s έχουν κλωνοποιηθεί στο %s"
 
 #: modules/commands/os_news.cpp:38
 msgid "All logon news items deleted."
-msgstr "Όλοι οι κανονισμοί ή οι πληροφορίες διαγράφηκαν."
+msgstr "Διαγράφηκαν όλα τα στοιχεία των ειδήσεων κατά την σύνδεση."
 
 #: modules/commands/ms_del.cpp:109
 #, c-format
 msgid "All memos for channel %s have been deleted."
-msgstr "Όλα τα memos από το κανάλι %s έχουν διαγραφεί."
+msgstr "Όλα τα μηνύματα από το κανάλι %s έχουν διαγραφεί."
 
 #: modules/commands/os_mode.cpp:55
 #, c-format
 msgid "All modes cleared on %s."
-msgstr ""
+msgstr "Όλες οι επιλογές καθαρίστηκαν στο %s."
 
 #: modules/commands/ns_register.cpp:358
 msgid ""
 "All new accounts must be validated by an administrator. Please wait for your "
 "registration to be confirmed."
 msgstr ""
+"Όλοι οι καινούργιοι λογαριασμοί πρέπει να επικυρωθούν από τους διαχειριστές.\n"
+"Παρακαλώ περιμένετε μέχρι να επιβεβαιωθεί η καταχώρηση σας."
 
 #: modules/commands/ms_del.cpp:111
 msgid "All of your memos have been deleted."
-msgstr "Όλα τα μηνύματα διαγράφηκαν."
+msgstr "Όλα τα μηνύματα σαςέχουν διαγραφεί."
 
 #: modules/commands/os_news.cpp:48
 msgid "All oper news items deleted."
-msgstr "Όλα τα νέα για τους opers διαγράφηκαν."
+msgstr "Διαγράφηκαν όλα τα στοιχεία των ειδήσεων των opers."
 
 #: modules/commands/os_noop.cpp:41
 #, fuzzy, c-format
 msgid "All operators from %s have been removed."
-msgstr "Όλες οι O:lines του %s έχουν απομακρυνθεί."
+msgstr "Όλοι οι operators από %s έχουν διαγραφεί."
 
 #: modules/commands/os_news.cpp:58
 msgid "All random news items deleted."
-msgstr "Όλα τα μηνύματα διαγράφηκαν."
+msgstr "Διαγράφηκαν όλα τα στοιχεία των τυχαίων ειδήσεων."
 
 #: modules/commands/cs_clone.cpp:105
 #, fuzzy, c-format
 msgid "All settings from %s have been cloned to %s."
-msgstr "Όλες οι ρυθμίσεις από το %s έχουν μεταφερθεί στο %s"
+msgstr "Όλες οι ρυθμίσεις από το %s έχουν κλωνοποιηθεί στο %s"
 
 #: modules/commands/cs_sync.cpp:41
 #, c-format
 msgid "All user modes on %s have been synced."
-msgstr "Όλα τα memos από το κανάλι %s έχουν διαγραφεί."
+msgstr "Όλα τα user modes στο %s έχουν συγχρονιστεί."
 
 #: modules/commands/hs_group.cpp:60
 #, fuzzy, c-format
 msgid "All vhost's in the group %s have been set to %s."
-msgstr "Όλες οι vhosts στο %s μεταφέρθηκαν στο %s"
+msgstr "Όλα τα vhost του λογαριασμού %s έχουν τεθεί σε %s."
 
 #: modules/commands/hs_group.cpp:58
 #, fuzzy, c-format
 msgid "All vhost's in the group %s have been set to %s@%s."
-msgstr "Όλες οι vhosts στο group %s έγιναν %s@%s"
+msgstr "Όλα τα vhost του λογαριασμού %s έχουν τεθεί σε %s@%s."
 
 #: src/access.cpp:41
 msgid "Allowed to (de)halfop him/herself"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)halfop τον εαυτό του"
 
 #: src/access.cpp:40
 msgid "Allowed to (de)halfop users"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)halfop άλλους χρήστες"
 
 #: src/access.cpp:49
 msgid "Allowed to (de)op him/herself"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)op τον εαυτό του"
 
 #: src/access.cpp:48
 msgid "Allowed to (de)op users"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)op άλλους χρήστες"
 
 #: src/access.cpp:51
 msgid "Allowed to (de)owner him/herself"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)owner τον εαυτό του"
 
 #: src/access.cpp:50
 msgid "Allowed to (de)owner users"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)owner άλλους χρήστες"
 
 #: src/access.cpp:53
 msgid "Allowed to (de)protect him/herself"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)protect τον εαυτό του"
 
 #: src/access.cpp:52
 msgid "Allowed to (de)protect users"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)protect άλλους χρήστες"
 
 #: src/access.cpp:60
 msgid "Allowed to (de)voice him/herself"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)voice τον εαυτό του"
 
 #: src/access.cpp:59
 msgid "Allowed to (de)voice users"
-msgstr ""
+msgstr "Επιτρέπεται να κάνει (de)voice άλλους χρήστες"
 
 #: src/access.cpp:28
 msgid "Allowed to assign/unassign a bot"
-msgstr ""
+msgstr "Επιτρέπεται να εκχωρήσετε/αναιρέσετε ένα bot"
 
 #: src/access.cpp:35
 msgid "Allowed to ban users"
-msgstr ""
+msgstr "Επιτρέπεται να ban άλλους χρήστες"
 
 #
 #: src/access.cpp:57
 #, fuzzy
 msgid "Allowed to change channel topics"
-msgstr "Ο/η %s άλλαξε τα usermodes σας."
+msgstr "Επιτρέπεται να αλλάξει το topic του καναλιού."
 
 #: src/access.cpp:42
 msgid "Allowed to get full INFO output"
-msgstr ""
+msgstr "Επιτρέπεται να πάρετε την πλήρη έξοδο του INFO."
 
 #: src/access.cpp:37
 msgid "Allowed to issue commands restricted to channel founders"
-msgstr ""
+msgstr "Επιτρέπεται να εκδίδεται εντολές που περιορίζονται στους ιδρυτές του καναλιού."
 
 #: src/access.cpp:34
 msgid "Allowed to modify channel badwords list"
-msgstr ""
+msgstr "Επιτρέπεται να τροποποιήσετε λίστα των κακών λέξεων του καναλιού."
 
 #: src/access.cpp:25
 #, fuzzy
 msgid "Allowed to modify the access list"
-msgstr "%s διαγράφηκε από το access list του %s."
+msgstr "Επιτρέπεται να τροποποιήσετε τη λίστα πρόσβασης"
 
 #: src/access.cpp:45
 msgid "Allowed to read channel memos"
-msgstr ""
+msgstr Επιτρέπει να διαβάζουν τα μηνύματα του καναλιού""
 
 #: src/access.cpp:55
 #, fuzzy
 msgid "Allowed to set channel settings"
-msgstr "* Δεν επιτρέπονται καινούριες κατοχυρώσεις καναλιών."
+msgstr "Επιτρέπεται να ορίσετε τις ρυθμίσεις του καναλιού"
 
 #: src/access.cpp:58
 msgid "Allowed to unban users"
-msgstr ""
+msgstr "Επιτρέπεται να unban άλλους χρήστες"
 
 #: src/access.cpp:38
 msgid "Allowed to use GETKEY command"
-msgstr ""
+msgstr "Επιτρέπεται να χρησιμοποιηθεί η εντολή GETKEY"
 
 #: src/access.cpp:54
 msgid "Allowed to use SAY and ACT commands"
-msgstr ""
+msgstr "Επιτρέπεται να χρησιμοποιηθουν οι εντολές SAY και ACT"
 
 #
 #: src/access.cpp:36
 #, fuzzy
 msgid "Allowed to use fantasy commands"
-msgstr "Να ελλατώνει την χρήση \"βίαιων\" εντολών"
+msgstr "Επιτρέπεται να χρησιμοποιηθούν οι φανταστικές εντολές"
 
 #: src/access.cpp:27
 #, fuzzy
 msgid "Allowed to use the AKICK command"
-msgstr "Δεν μπορείτε να χρησιμοποιήσετε αυτή την εντολή."
+msgstr "Επιτρέπεται να χρησιμοποιηθεί η εντολή AKICK"
 
 #: src/access.cpp:43
 msgid "Allowed to use the INVITE command"
-msgstr ""
+msgstr "Επιτρέπεται να χρησιμοποιηθεί η εντολή INVITE"
 
 #: src/access.cpp:44
 #, fuzzy
 msgid "Allowed to use the KICK command"
-msgstr "Δεν μπορείτε να χρησιμοποιήσετε αυτή την εντολή."
+msgstr "Επιτρέπεται να χρησιμοποιηθεί η εντολή KICK"
 
 #: src/access.cpp:46
 #, fuzzy
 msgid "Allowed to use the MODE command"
-msgstr "Δεν μπορείτε να χρησιμοποιήσετε αυτή την εντολή."
+msgstr "Επιτρέπεται να χρησιμοποιηθεί η εντολή MODE"
 
 #: src/access.cpp:26
 #, fuzzy
 msgid "Allowed to view the access list"
-msgstr "%s διαγράφηκε από το access list του %s."
+msgstr "Επιτρέπεται να δουν την λίστα πρόσβασης"
 
 #: modules/commands/gl_global.cpp:42
 #, fuzzy, c-format
@@ -2645,10 +2647,8 @@ msgid ""
 "Allows Administrators to send messages to all users on the\n"
 "network. The message will be sent from the nick %s."
 msgstr ""
-"Σύνταξη: #GLOBAL #μήνυμα##\n"
-"\n"
-"Επιτρέπει στους IRCops να στέλνουν μυνήματα σε όλους τους χρήστες του \n"
-"δικτύου.  Το μήνυμα θα στέλνεται από το ψευδώνυμο υπηρεσίας %s."
+"Επιτρέπει στους Διαχειριστές να στέλνουν μηνύματα σε όλους τους χρήστες του \n"
+"δικτύου.  Το μήνυμα θα στέλνεται από το όνομα %s."
 
 #
 #: modules/commands/os_mode.cpp:127

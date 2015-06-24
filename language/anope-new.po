@@ -2284,8 +2284,7 @@ msgstr ""
 #: modules/commands/cs_akick.cpp:407
 #, c-format
 msgid "AKICK ENFORCE for %s complete; %d users were affected."
-msgstr ""
-"Η AKICK ENFORCE για τον %s ολοκληρώθηκε; %d χρήστες θα επιρρεαστούν."
+msgstr "Η ενέργεια της αυτόματης απομάκρυνσης για το %s ολοκληρώθηκε επιτυχώς. %d χρήστες επηρεάστηκαν."
 
 #
 #: modules/commands/os_chankill.cpp:21
@@ -2301,45 +2300,45 @@ msgstr "Η λίστα AKILL είναι άδεια."
 #: modules/commands/bs_kick.cpp:1205
 #, fuzzy
 msgid "AMSG kicker"
-msgstr "        Kick για AMSG: %s"
+msgstr ""
 
 #: modules/commands/ns_alist.cpp:48
 #, fuzzy
 msgid "Access"
-msgstr "Λίστα πρόσβασης:"
+msgstr "Πρόσβαση"
 
 #: include/language.h:73
 msgid "Access denied."
-msgstr "Λίστα πρόσβασης:"
+msgstr "Δεν επιτρέπεται η πρόσβαση."
 
 #: modules/commands/cs_status.cpp:58
 #, fuzzy, c-format
 msgid "Access for %s on %s:"
-msgstr "Η vhost για τον %s έγινε %s."
+msgstr "Πρόσβαση για %s στο %s:"
 
 #: include/language.h:108
 #, c-format
 msgid "Access level must be between %d and %d inclusive."
-msgstr "Ο βαθμός πρέπει να είναι μεταξύ %d και %d."
+msgstr "Το επίπεδο πρόσβασης πρέπει να συμπεριλαμβάνεται ανάμεσα σε %d και %d."
 
 #: modules/commands/cs_access.cpp:108
 msgid "Access level must be non-zero."
-msgstr "Η Access level δεν πρέπει να είναι ποτέ στο μηδέν."
+msgstr "Το επίπεδο πρόσβασης πρέπει να είναι διαφορετικό του μηδενός."
 
 #: modules/commands/cs_access.cpp:687
 #, c-format
 msgid "Access level settings for channel %s:"
-msgstr "Ο βαθμός access για το κανάλι %s:"
+msgstr "Ρυθμίσεις επιπέδου πρόσβασης για το κανάλι %s:"
 
 #: modules/commands/cs_access.cpp:727
 #, c-format
 msgid "Access levels for %s reset to defaults."
-msgstr "Ο βαθμός Access για το %s σβήστηκε στο αρχικό."
+msgstr "Το επίπεδο πρόσβασης για %s επέστρεψε στο αρχικό."
 
 #: modules/commands/cs_access.cpp:434 modules/commands/ns_access.cpp:87
 #, fuzzy, c-format
 msgid "Access list for %s:"
-msgstr "Λίστα πρόσβασης για %s:"
+msgstr "Λίστα πρόσβασης για %s:"
 
 #: modules/commands/help.cpp:166
 #, c-format
@@ -2347,16 +2346,15 @@ msgid ""
 "Access to this command requires the permission %s to be present in your "
 "opertype."
 msgstr ""
-"Η πρόσβαση σε αυτή την εντολή χρειάζεται την άδεια %s να υπάρχει στο "
-"opertype σας."
+"Η πρόσβαση σε αυτή την εντολή απαιτεί την άδεια %s να υπάρχει στο opertype σας."
 
 #: modules/commands/cs_set.cpp:694
 msgid "Activate security features"
-msgstr "Ενεργοποίηση των στοιχείων ασφάλειας του %s."
+msgstr "Ενεργοποίηση των χαρακτηριστικών ασφαλείας"
 
 #: modules/commands/hs_request.cpp:222
 msgid "Activate the requested vHost for the given nick."
-msgstr ""
+msgstr "Ενεργοποιήστε το ζητούμενο vHost για έναν λογαριασμό."
 
 #: modules/commands/hs_on.cpp:53
 #, fuzzy
@@ -2365,15 +2363,14 @@ msgid ""
 "When you use this command any user who performs a /whois\n"
 "on you will see the vhost instead of your real host/IP address."
 msgstr ""
-"Syntax: ON\n"
-"Ενεργοποιεί τη vhost ενός nickname.\n"
+"Ενεργοποιεί το vhost ενός λογαριασμού που είναι σε χρήση.\n"
 "Αν χρησιμοποιήσετε αυτή την εντολή και κάποιος χρήστης σας κάνει /whois\n"
-"θα δεί τη vhost αντί για τη πραγματική IP σας."
+"θα δει το vhost αντί για τη πραγματική Host/IP σας.
 
 #
 #: modules/commands/hs_on.cpp:19
 msgid "Activates your assigned vhost"
-msgstr "Ενεργοποιεί το vhost σας."
+msgstr "Ενεργοποιεί το καταχωρημένο vhost σας."
 
 #: modules/commands/os_info.cpp:243
 msgid ""
@@ -2381,52 +2378,55 @@ msgid ""
 "This will show to opers in the respective info command for\n"
 "the nick or channel."
 msgstr ""
+"Προσθέτει ή διαγράφει μία oper πληροφορία για το συγκεκριμένο\n"
+"όνομα ή κανάλι.Αυτό δείχνει στους διαχειριστές τις αντίστοιχες\n"
+"πληροφορίες για έναν όνομα ή κανάλι."
 
 #: modules/commands/os_dns.cpp:513
 #, c-format
 msgid "Added IP %s to %s."
-msgstr ""
+msgstr "Προστέθηκε η IP %s sto %s."
 
 #: modules/commands/os_forbid.cpp:227
 #, c-format
 msgid "Added a forbid on %s of type %s to expire on %s."
-msgstr ""
+msgstr "Προστέθηκε ένα forbid στο %s του τύπου %s που λήγει σε %s."
 
 #: modules/commands/os_info.cpp:164
 #, fuzzy, c-format
 msgid "Added info to %s."
-msgstr "Το μήνυμα στάλθηκε στον %s."
+msgstr "Προστέθηκε πληροφορία στο %s."
 
 #: modules/commands/os_news.cpp:34
 msgid "Added new logon news item."
-msgstr "Προστέθηκε ένας κανονισμός ή πληροφορία στη θέση (%d)."
+msgstr "Προστέθηκε νέο στοιχείο στις ειδήσεις κατά την συνδέση."
 
 #: modules/commands/os_news.cpp:44
 msgid "Added new oper news item."
-msgstr "Προσθέθηκε ένα νέο μήνυμα για τους opers θέση (%d)."
+msgstr "Προστέθηκε νέο στοιχείο στις ειδήσεις των opers."
 
 #: modules/commands/os_news.cpp:54
 msgid "Added new random news item."
-msgstr "Προσθέθηκε ένα νέο μήνυμα στην θέση (%d)."
+msgstr "Προστέθηκε νέο στοιχείο στις τυχαίες ειδήσεις."
 
 #: modules/commands/os_dns.cpp:394
 #, fuzzy, c-format
 msgid "Added server %s."
-msgstr "Uplink server: %s"
+msgstr "Προστέθηκε server: %s"
 
 #: modules/commands/os_dns.cpp:299
 #, c-format
 msgid "Added zone %s."
-msgstr ""
+msgstr "Προστέθηκε zone %s."
 
 #: modules/commands/ns_register.cpp:88
 msgid ""
 "Additionally, Services Operators with the nickserv/confirm permission can\n"
 "replace passcode with a users nick to force validate them."
 msgstr ""
-"Επιπλέον οι Services Operators με την άδεια nickserv/confirm μπορούν\n"
-"αντικαταστήσουν το passcode με το όνομα του χρήστη για να γίνει η "
-"επιβεβαίωση."
+"Επιπλέον οι Services Operators με την άδεια nickserv/confirm μπορούν\n"
+"αντικαταστήσουν το passcode με το όνομα του χρήστη για να γίνει η "
+"εξαναγκαστική επιβεβαίωση."
 
 #: modules/pseudoclients/botserv.cpp:172
 #, fuzzy, c-format

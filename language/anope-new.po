@@ -11651,14 +11651,14 @@ msgstr "CONFIG {#MODIFY#|#VIEW#} [#block name# #item name# #item value#]"
 #: modules/commands/bs_info.cpp:42
 #, fuzzy
 msgid "{channel | nickname}"
-msgstr "UNBAN #κανάλι# [#nick#]"
+msgstr ""{όνομα | κανάλι}"
 
 #: modules/commands/ms_cancel.cpp:20
 #, fuzzy
 msgid "{nick | channel}"
-msgstr "RSEND {#nick# | #channel#} #memo-text#"
+msgstr ""{όνομα | κανάλι}"
 
 #: modules/commands/ms_rsend.cpp:25 modules/commands/ms_send.cpp:25
 #, fuzzy
 msgid "{nick | channel} memo-text"
-msgstr "RSEND {#nick# | #channel#} #memo-text#"
+msgstr "{όνομα | κανάλι} κείμενο"

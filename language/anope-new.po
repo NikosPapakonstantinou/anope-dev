@@ -11587,11 +11587,11 @@ msgstr ""
 
 #: src/misc.cpp:350
 msgid "minute"
-msgstr ""
+msgstr "λεπτό"
 
 #: src/misc.cpp:350
 msgid "minutes"
-msgstr ""
+msgstr "λεπτά"
 
 #: modules/commands/bs_info.cpp:88
 msgid "not assigned yet"
@@ -11599,12 +11599,12 @@ msgstr ""
 
 #: src/misc.cpp:325
 msgid "second"
-msgstr ""
+msgstr "δευτερόλεπτο"
 
 #
 #: src/misc.cpp:325
 msgid "seconds"
-msgstr "Οι εντολές του %s είναι::"
+msgstr "δευτερόλεπτα"
 
 #: modules/commands/hs_request.cpp:210
 #, fuzzy, c-format

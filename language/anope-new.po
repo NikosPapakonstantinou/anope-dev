@@ -3025,16 +3025,13 @@ msgid ""
 "The second parameter specifies whether the information should\n"
 "be displayed (OFF) or hidden (ON)."
 msgstr ""
-"Σύνταξη: SET HIDE {EMAIL | STATUS | USERMASK | QUIT} {ON | OFF}\n"
-"\n"
-"Σας επιτρέπει να εμποδίσετε την εμφάνιση συγκεκριμένων\n"
-"πληροφοριών όταν κάποιος εκτελεί την εντολή του %s INFO, στο\n"
-"ψευδώνυμό σας.  Μπορείτε να αποκρύψετε τη διεύθυνση e-mail\n"
-"user@host mask (USERMASK), and last quit message (QUIT).\n"
-"σας (EMAIL), την τελευταία διεύθυνση με την οποία συνδεθήκατε\n"
-"(USERMASK), και το τελευταίο μήνυμα (QUIT).\n"
-"Η δεύτερη παράμετρος καθορίζει το αν η πληροφορία θα πρέπει\n"
-"να εμφανίζεται (OFF) ή να αποκρύπτεται (ON)."
+"Επιτρέπει την απόκρυψη των πληροφοριών όταν κάποιος πατήσει\n"
+"%s INFO σε ένα όνομα.\n"
+"Μπορείτε να κρύψετε το email σας ((EMAIL),το seen\n"
+"user@host mask (USERMASK), τη πρόσβαση στα services\n"
+"(STATUS) και το quit message (QUIT).\n"
+"Η δεύτερη παράμετρος ορίζει αν οι πληροφορίες πρέπει να\n"
+"φαίνονται (OFF) ή να κρύβονται (ON)."
 
 #
 #: modules/commands/bs_info.cpp:119
@@ -11587,11 +11584,11 @@ msgstr ""
 
 #: src/misc.cpp:350
 msgid "minute"
-msgstr "λεπτό"
+msgstr ""
 
 #: src/misc.cpp:350
 msgid "minutes"
-msgstr "λεπτά"
+msgstr ""
 
 #: modules/commands/bs_info.cpp:88
 msgid "not assigned yet"
@@ -11599,12 +11596,12 @@ msgstr ""
 
 #: src/misc.cpp:325
 msgid "second"
-msgstr "δευτερόλεπτο"
+msgstr ""
 
 #
 #: src/misc.cpp:325
 msgid "seconds"
-msgstr "δευτερόλεπτα"
+msgstr "Οι εντολές του %s είναι::"
 
 #: modules/commands/hs_request.cpp:210
 #, fuzzy, c-format

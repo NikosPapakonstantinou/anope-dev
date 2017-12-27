@@ -32,11 +32,10 @@
 				
 
 				
-		public class Title : IPlugin
+    public class Title : IPlugin
     {
         const string UrlMatchExpression = @"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'" + "\"" + ".,<>?«»“”‘’]))";
-
-        string IPlugin.InvokeWithMessage(string source, string message, ref IrcClient client)
+	string IPlugin.InvokeWithMessage(string source, string message, ref IrcClient client)
         {
             string toSend = String.Empty; // Make csc happy
             // catch urls
@@ -108,3 +107,63 @@
             }
         }
     }		
+
+
+/*
+* Hellenic New
+* v1227
+* testing
+*/
+
+char* YT_Search_GetURL(char* query, int resultsPerPage, char* pageToken)
+{
+	int qlen = strlen(query);
+	char* query2 = (char*)malloc(qlen + 1);
+	for(int i = 0; i < qlen; i++)
+	{
+		if(query[i] != ' ')
+			query2[i] = query[i];
+		else query2[i] = '+';
+	}
+	query2[qlen] = 0;
+	char* query3 = url_encode(query2);
+	free(query2);
+	char* url = NULL;
+	if(pageToken == NULL)
+		asprintf(&url, "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%s&type=video&maxResults=%d&key=%s", query3, resultsPerPage, youtube_apikey);
+	else 
+		asprintf(&url, "https://www.googleapis.com/youtube/v3/search?part=snippet&q=%s&type=video&maxResults=%d&pageToken=%s&key=%s", query3, resultsPerPage, pageToken, youtube_apikey);
+	char* url2 = url_encode(url);
+	free(url);
+	char* url3 = NULL;
+	asprintf(&url3, "/ythttps.php?u=%s", url2);
+	free(url2);
+	return url3;
+}
+
+YT_SearchListResponse* YT_Search_ParseResponse(char* response)
+{
+	Document document;
+	document.ParseInsitu(response);
+	YT_SearchListResponse* result = (YT_SearchListResponse*)malloc(sizeof(YT_SearchListResponse));
+	memset(result, 0, sizeof(YT_SearchListResponse));
+	if(document.HasMember("prevPageToken"))
+		result->prevPageToken = Util_CopyString(document["prevPageToken"].GetString());
+	if(document.HasMember("nextPageToken"))
+		result->nextPageToken = Util_CopyString(document["nextPageToken"].GetString());
+	result->totalNrResults = document["pageInfo"]["totalResults"].GetInt();
+	result->nrResultsPerPage = document["pageInfo"]["resultsPerPage"].GetInt();
+	result->searchResults = (YT_SearchResult*)malloc(result->nrResultsPerPage * sizeof(YT_SearchResult));
+	memset(result->searchResults, 0, result->nrResultsPerPage * sizeof(YT_SearchResult));
+	for(int i = 0; i < result->nrResultsPerPage; i++)
+	{
+		YT_SearchResult* cur = &result->searchResults[i];
+		cur->videoId = Util_CopyString(document["items"][i]["id"]["videoId"].GetString());
+		cur->title = Util_CopyString(document["items"][i]["snippet"]["title"].GetString());
+		cur->description = Util_CopyString(document["items"][i]["snippet"]["description"].GetString());
+		cur->thumbnail = Util_CopyString(document["items"][i]["snippet"]["thumbnails"]["default"]["url"].GetString());
+		cur->channelId = Util_CopyString(document["items"][i]["snippet"]["channelId"].GetString());
+		cur->channelTitle = Util_CopyString(document["items"][i]["snippet"]["channelTitle"].GetString());
+	}
+	return result;
+}

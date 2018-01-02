@@ -3228,24 +3228,23 @@ msgid ""
 "By default, limited to AOPs or those with level 5 access\n"
 "and above on the channel. Channel founders may ban masks."
 msgstr ""
-"Σύνταξη: BAN #κανάλι ψευδώνυμο [λόγος]\n"
-"\n"
-"Κάνει ban το ψευδώνυμο που του δίνεις στο κανάλι.\n"
-"    \n"
-"Από default, χρησιμοποιείται από τους AOPs ή αυτούς που έχουν level 5 "
-"access \n"
-"και παραπάνω στο κανάλι."
+"Απαγορεύει ένα συγκεκριμένο ψευδώνυμο ή μία μάσκα σε ένα κανάλι.\n"
+"Μπορεί να δοθεί μία προαιρετική λήξη ώστε να καταργήθεί η απαγόρευση\n"
+"μετά από ένα καθορισμένο χρονικό όριο.\n"
+" \n"
+"Από προεπιλογή, η απαγόρευση περιορίζεται σε AOP ή σε άτομα με πρόσβαση από επίπεδο 5\n"
+"και πάνω σε ένα κανάλι. Οι ιδρυτές του καναλιού ενδέχεται να απαγορεύουν τις μάσκες."
 
 #: modules/commands/cs_enforce.cpp:166
 #, fuzzy, c-format
 msgid "Bans enforced on %s."
-msgstr "%c δεν έχει κλειδωθεί στο %s."
+msgstr "Οι απαγορεύσεις που επιβάλλονται στο %s."
 
 #: modules/commands/bs_kick.cpp:1120 modules/commands/bs_kick.cpp:1122
 #: modules/commands/bs_kick.cpp:1125
 #, fuzzy
 msgid "Bolds kicker"
-msgstr "       Έντονη χαρακτήρες με kick : %s"
+msgstr "Απομάκρυνση του χρήστη όταν γράψει με έντονους χαρακτήρες (Bold)."
 
 #: modules/commands/bs_bot.cpp:26 modules/commands/bs_bot.cpp:166
 #, c-format
@@ -3255,27 +3254,27 @@ msgstr "Το Bot %s υπάρχει ήδη."
 #: include/language.h:120
 #, fuzzy, c-format
 msgid "Bot %s does not exist."
-msgstr "   %s (δεν λήγει ποτέ)"
+msgstr "Το Bot %s δεν υπάρχει."
 
 #: modules/commands/bs_assign.cpp:71 modules/commands/bs_assign.cpp:246
 #, c-format
 msgid "Bot %s has been assigned to %s."
-msgstr "Το Bot %s θα μπει στο %s."
+msgstr "Το Bot %s έχει εκχωρηθεί στο κανάλι %s."
 
 #: modules/commands/bs_bot.cpp:212
 #, fuzzy, c-format
 msgid "Bot %s has been changed to %s!%s@%s (%s)."
-msgstr "Bot %s άλλαξε σε %s!%s@%s (%s)"
+msgstr "Το Bot %s έχει αλλάξει σε %s!%s@%s (%s)."
 
 #: modules/commands/bs_bot.cpp:246
 #, c-format
 msgid "Bot %s has been deleted."
-msgstr "Bot %s διαγράφηκε."
+msgstr "Το Bot %s έχει διαγράφεί."
 
 #: modules/commands/bs_assign.cpp:63 modules/commands/bs_assign.cpp:241
 #, c-format
 msgid "Bot %s is already assigned to channel %s."
-msgstr "Το Bot %s υπάρχει ήδη στο κανάλι %s#."
+msgstr "Το Bot %s έχει εκχωρηθεί ήδη στο κανάλι %s."
 
 #: modules/commands/bs_kick.cpp:821
 #, c-format
@@ -3300,37 +3299,37 @@ msgstr "Το Bot δεν θα κάνει kick τους voices του καναλ
 #: modules/commands/bs_bot.cpp:111
 #, fuzzy, c-format
 msgid "Bot %s is not changeable."
-msgstr "Κανένα Bot έχει επιλογή ON στο κανάλι %s."
+msgstr "Το Bot %s δεν μπορεί να αλλάξει."
 
 #: modules/commands/bs_bot.cpp:238
 #, fuzzy, c-format
 msgid "Bot %s is not deletable."
-msgstr "Bot %s διαγράφηκε."
+msgstr "Bot %s δεν μπορεί να διαγραφεί."
 
 #: modules/commands/bs_set.cpp:129
 #, c-format
 msgid "Bot bans will automatically expire after %s."
-msgstr ""
+msgstr "Οι απαγορεύσεις του Bot θα λείγουν αυτόματα μετά από %s."
 
 #: modules/commands/bs_set.cpp:127
 #, fuzzy
 msgid "Bot bans will no longer automatically expire."
-msgstr "Τα services δεν θα δίνουν πια autoop στον %s στα κανάλια."
+msgstr "Οι απαγορεύσεις του Bot δεν θα λείγουν αυτόματα."
 
 #: modules/commands/bs_bot.cpp:46 modules/commands/bs_bot.cpp:131
 #, fuzzy, c-format
 msgid "Bot hosts may only be %d characters long."
-msgstr "Οι Hosts των Bots μπορούν να περιέχουν μόνο %d χαρακτήρες."
+msgstr "Οι διευθύνσεις των Bots μπορούν να περιέχουν μόνο %d χαρακτήρες."
 
 #: modules/commands/bs_bot.cpp:64 modules/commands/bs_bot.cpp:160
 #, fuzzy
 msgid "Bot hosts may only contain valid host characters."
-msgstr "Οι hosts των bots μπορούν να περιέχουν μόνο έγκυρους χαρακτήρες."
+msgstr "Οι διευθύνσεις των Bots μπορούν να περιέχουν μόνο έγκυρους χαρακτήρες."
 
 #: modules/commands/bs_bot.cpp:40 modules/commands/bs_bot.cpp:125
 #, fuzzy, c-format
 msgid "Bot idents may only be %d characters long."
-msgstr "Οι idents των bots μπορούν να περιέχουν μόνο %d χαρακτήρες."
+msgstr "Τα idents των Bots μπορούν να περιέχουν μόνο %d χαρακτήρες."
 
 #: modules/commands/bs_bot.cpp:58 modules/commands/bs_bot.cpp:154
 #, fuzzy
@@ -3340,26 +3339,26 @@ msgstr "Οι Idents των bots μπορούν να περιέχουν μόνο 
 #: include/language.h:122
 #, fuzzy, c-format
 msgid "Bot is not on channel %s."
-msgstr "Το Bot θα κάνει kick τους ops του καναλιού %s."
+msgstr "Το Bot δεν είναι στο κανάλι %s."
 
 #: modules/commands/bs_botlist.cpp:51
 msgid "Bot list:"
-msgstr "Bot λίστα:"
+msgstr "Η λίστα των Bots:"
 
 #: modules/commands/bs_info.cpp:88
 msgid "Bot nick"
-msgstr ""
+msgstr "Αλλαγή ονόματος του Bot"
 
 #: modules/commands/bs_bot.cpp:34 modules/commands/bs_bot.cpp:119
 #, fuzzy, c-format
 msgid "Bot nicks may only be %d characters long."
-msgstr "Οι idents των bots μπορούν να περιέχουν μόνο %d χαρακτήρες."
+msgstr "Τα ονόματα των Bots μπορούν να περιέχουν μόνο %d χαρακτήρες."
 
 #: modules/commands/bs_bot.cpp:52 modules/commands/bs_bot.cpp:148
 #, fuzzy
 msgid "Bot nicks may only contain valid nick characters."
-msgstr "Τα ψευδόνυμα των bots μπορούν να περιέχουν μόνο έγκυρους χαρακτήρες."
-
+msgstr "Τα ονόματα των Bots μπορούν να περιέχουν μόνο έγκυρους χαρακτήρες."
+====================================================================================
 #: modules/commands/bs_kick.cpp:227
 #, fuzzy, c-format
 msgid ""

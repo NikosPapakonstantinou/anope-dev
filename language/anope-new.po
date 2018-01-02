@@ -3358,20 +3358,20 @@ msgstr "Τα ονόματα των Bots μπορούν να περιέχουν �
 #, fuzzy
 msgid "Bot nicks may only contain valid nick characters."
 msgstr "Τα ονόματα των Bots μπορούν να περιέχουν μόνο έγκυρους χαρακτήρες."
-====================================================================================
+
 #: modules/commands/bs_kick.cpp:227
 #, fuzzy, c-format
 msgid ""
 "Bot will now kick for %s, and will place a ban\n"
 "after %d kicks for the same user."
 msgstr ""
-"Bot will now kick italics, and will place a ban after %d\n"
-"kicks for the same user."
+"Το Bot θα κλωτσάει τώρα για το %s και θα θέσει απαγόρευση \n"
+"μετά από %d απομακρύνσεις για τον ίδιο χρήστη.
 
 #: modules/commands/bs_kick.cpp:230
 #, fuzzy, c-format
 msgid "Bot will now kick for %s."
-msgstr "Το Bot θα κάνει τώρα kick έντονους χαρακτήρες#."
+msgstr "Το Bot θα κλωτσάει για το %s."
 
 #: modules/commands/bs_kick.cpp:418
 #, fuzzy, c-format
@@ -3380,9 +3380,9 @@ msgid ""
 "%d characters and %d%% of the entire message), and will\n"
 "place a ban after %d kicks for the same user."
 msgstr ""
-"Το Bot θα κάνει kick κεφαλαία (πρέπει να είναι τουλάχιστον\n"
-"%d χαρακτήρες και %d%% από το μήνυμα), και θα \n"
-"γίνει ban μετά από %d kicks για τον ίδιο χρήστη."
+"Το Bot θα κλωτσάει τώρα τα κεφαλαία (πρέπει να αποτελούν τουλάχιστον\n"
+"%d χαρακτήρες και %d%% ολόκληρου του μηνύματος) και θα \ n"
+"τοποθετήσει μία απαγόρευση μετά από %d κλωτσιές για τον ίδιο χρήστη."
 
 #: modules/commands/bs_kick.cpp:422
 #, fuzzy, c-format
@@ -3390,8 +3390,8 @@ msgid ""
 "Bot will now kick for caps (they must constitute at least\n"
 "%d characters and %d%% of the entire message)."
 msgstr ""
-"Το Bot θα κάνει kick κεφαλαία (πρέπει να είναι τουλάχιστον\n"
-"%d χαρακτήρες και %d%% από το μήνυμα)."
+"Το Bot θα αρχίσει να κλωτσάει τώρα τα κεφαλαία (πρέπει να αποτελούν τουλάχιστον\n"
+"%d χαρακτήρες και %d%% ολόκληρου του μηνύματος)."
 
 #: modules/commands/bs_kick.cpp:553
 #, fuzzy, c-format
@@ -3399,15 +3399,13 @@ msgid ""
 "Bot will now kick for flood (%d lines in %d seconds\n"
 "and will place a ban after %d kicks for the same user."
 msgstr ""
-"Το Bot θα κάνει kick #για επαναλήψεις (%d γραμμές σε %d δευτερόλεπτα), "
-"και \n"
-"θα κάνει ban μετά από %d kicks για τον ίδιο χρήστη."
+"Το Bot θα κλωτσάει τώρα για flood (%d γραμμές σε %d δευτερόλεπτα\n"
+"και θα θέσει απαγόρευση μετά από %d κλωτσιές στον ίδιο χρήστη."
 
 #: modules/commands/bs_kick.cpp:556
 #, fuzzy, c-format
 msgid "Bot will now kick for flood (%d lines in %d seconds)."
-msgstr ""
-"Το Bot θα κάνει kick για επαναλήψεις (%d γραμμές σε %d δευτερόλεπτα)."
+msgstr "Το Bot θα κλωτσάει για flood (%d γραμμές σε %d δευτερόλεπτα)."
 
 #: modules/commands/bs_kick.cpp:673
 #, fuzzy, c-format
@@ -3416,9 +3414,9 @@ msgid ""
 "same thing %d times), and will place a ban after %d\n"
 "kicks for the same user."
 msgstr ""
-"Το Bot θα κάνει kick για επαναλήψεις (χρήστες που λένε %d φορές\n"
-"το ίδιο πράγμα), και θα γίνεται ban μετά από %d \n"
-"kicks για τον ίδιο χρήστη."
+"Το Bot θα κλωτσάει για επαναλήψεις (χρήστες που λένε %d\n"
+"φορές το ίδιο πράγμα) και θα γίνεται απαγόρευση μετά από\n"
+"%d κλωτσιές για τον ίδιο χρήστη."
 
 #: modules/commands/bs_kick.cpp:677
 #, fuzzy, c-format
@@ -3426,28 +3424,28 @@ msgid ""
 "Bot will now kick for repeats (users that say the\n"
 "same thing %d times)."
 msgstr ""
-"Το Bot θα κάνει kick για επαναλήψεις (χρήστες που λένε %d φορές\n"
+"Το Bot θα κάνει kick για επαναλήψεις (χρήστες που λένε %d φορές\n"
 "το ίδιο πράγμα)."
 
 #: modules/commands/bs_kick.cpp:241
 #, fuzzy, c-format
 msgid "Bot won't kick for %s anymore."
-msgstr "Το Bot δεν θα κάνει kick κεφαλαία πλέον."
+msgstr "Το Bot δεν θα κλωτσάει για το %s πλέον."
 
 #: modules/commands/bs_kick.cpp:428
 #, fuzzy
 msgid "Bot won't kick for caps anymore."
-msgstr "Το Bot δεν θα κάνει kick κεφαλαία πλέον."
+msgstr "Το Bot δεν θα κλωτσάει για κεφαλαία πλέον."
 
 #: modules/commands/bs_kick.cpp:561
 #, fuzzy
 msgid "Bot won't kick for flood anymore."
-msgstr "Το Bot δεν θα κάνει kick για επαναλήψεις πλέον."
+msgstr "Το Bot δεν θα κλωτσάει για flood πλέον."
 
 #: modules/commands/bs_kick.cpp:683
 #, fuzzy
 msgid "Bot won't kick for repeats anymore."
-msgstr "Το Bot δεν θα κάνει kick για επαναλήψεις πλέον."
+msgstr "Το Bot δεν θα κλωτσάει για επαναλήψεις πλέον."
 
 #: modules/commands/cs_access.cpp:467 modules/commands/os_session.cpp:552
 #: modules/commands/os_sxline.cpp:199
@@ -3465,18 +3463,18 @@ msgstr ""
 #
 #: modules/commands/ms_cancel.cpp:19
 msgid "Cancel the last memo you sent"
-msgstr "Ακυρώνει το τελευταίο μήνυμα που στέλνετε"
+msgstr "Ακύρωση του τελευταίου μηνύματος που στείλατε"
 
 #
 #: modules/commands/cs_drop.cpp:19
 msgid "Cancel the registration of a channel"
-msgstr "Ακυρώνει την κατοχύρωση ενός καναλιού"
+msgstr "Ακυρώστε την εγγραφή ενός καναλιού"
 
 #
 #: modules/commands/ns_drop.cpp:20
 msgid "Cancel the registration of a nickname"
-msgstr "Διαγράφει ένα ψευδώνυμο"
-
+msgstr "Ακυρώστε την εγγραφή ενός ψευδωνύμου"
+==========================================================================
 #: modules/commands/ms_cancel.cpp:64
 msgid ""
 "Cancels the last memo you sent to the given nick or channel,\n"
